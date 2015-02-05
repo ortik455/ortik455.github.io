@@ -5,6 +5,7 @@ body {
     background-color: #FFFFFF;
     font-size: 16px;
     font-family: Futura, sans-serif;
+    text-align: center;
     }
 p {
     color: black;
@@ -41,3 +42,7 @@ nav ul {
 	text-align: center;
 	word-spacing: 30px;
 	}
+.back {
+    font-size: 11px;
+    letter-spacing: 0px;
+}
