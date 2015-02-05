@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: Futura, sans-serif;
     }
 p {
     color: black;
@@ -13,11 +13,12 @@ h1 {
 	margin-top: 30px;
 	margin-bottom: 100px;
 	font-size: 16px;
+	letter-spacing: 1px;
 	}
 a {
     text-decoration: none;
     font-size: 30px;
-    letter-spacing: 5;
+    letter-spacing: 5px;
 }
 a:link {
     color: #E4F4F5;
