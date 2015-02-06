@@ -30,6 +30,9 @@ a:link {
 a:hover {
     color: #156369;
 }
+a:visited {
+    color: #93BAB5;
+    }
 li {
 	display: inline;
 	padding-right: 20px;
