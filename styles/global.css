@@ -16,11 +16,7 @@ body {
 	margin: 10px 100px;
 	background-color:#FFFFFF;
 }
-article,aside,figure,figurecaption,footer,header,nav,section {
-	display: block;
-	margin: 0;
-	padding: 0;
-}
+
 p {
     color: black;
     font-size: 14px;
