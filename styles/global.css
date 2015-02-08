@@ -2,6 +2,7 @@ html {
 	overflow-y: scroll;
 }
 body {
+    display: block;
     background-color: #E3E3E3;
     font-size: 16px;
     font-family: arial, sans-serif;
@@ -10,7 +11,6 @@ body {
 	height: 1024px;
     }
 #mainbox {
-
 	width: 600px; 
 	height: 1020px;
 	margin: 10px 100px;
