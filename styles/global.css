@@ -3,15 +3,14 @@ html {
 }
 body {
     background-color: #E3E3E3;
-    background-position: center;
     font-size: 16px;
-    font-family: Georgia, sans-serif;
+    font-family: arial, sans-serif;
     text-align: center;
     width:768px;
 	height: 1024px;
     }
 #mainbox {
-    position: center;
+
 	width: 600px; 
 	height: 1020px;
 	margin: 10px 100px;
@@ -31,24 +30,27 @@ h1 {
 	color: #D4D2D2;
 	margin-top: 10px;
 	padding-top: 40px;
+	padding-bottom: 20px;
 	margin-bottom: 90px;
 	font-size: 16px;
 	font-weight: normal;
-	letter-spacing: 1px;
+	letter-spacing: 5px;
+	border-bottom-style: dashed;
+	border-bottom-width: thin;
 	}
 a {
     text-decoration: none;
     font-size: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 a:link {
-    color: #DEA37E;
+    color: #000000;
     }
 a:hover {
     color: #787878;
 }
 a:visited {
-    color: #DEA37E;
+    color: #000000;
     }
 li {
 	display: inline;
