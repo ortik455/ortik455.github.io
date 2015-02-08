@@ -2,11 +2,21 @@ html {
 	overflow-y: scroll;
 }
 body {
-    background-color: #FFFFFF;
+    background-color: #EBE4DF;
+    background-position: center;
     font-size: 16px;
     font-family: Verdana, sans-serif;
     text-align: center;
+    width:768px;
+	height: 1024px;
     }
+#mainbox {
+    position: center;
+	width: 600px; 
+	height: 1020px;
+	margin: 10px 100px;
+	background-color:#FFFFFF;
+}
 p {
     color: black;
     font-size: 14px;
