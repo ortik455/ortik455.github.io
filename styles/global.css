@@ -2,10 +2,10 @@ html {
 	overflow-y: scroll;
 }
 body {
-    background-color: #EBE4DF;
+    background-color: #E3E3E3;
     background-position: center;
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: Georgia, sans-serif;
     text-align: center;
     width:768px;
 	height: 1024px;
@@ -17,16 +17,23 @@ body {
 	margin: 10px 100px;
 	background-color:#FFFFFF;
 }
+article,aside,figure,figurecaption,footer,header,nav,section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
 p {
     color: black;
     font-size: 14px;
 }
 h1 {
     text-align: center;
-	color: #667D6D;
-	margin-top: 30px;
-	margin-bottom: 100px;
+	color: #D4D2D2;
+	margin-top: 10px;
+	padding-top: 40px;
+	margin-bottom: 90px;
 	font-size: 16px;
+	font-weight: normal;
 	letter-spacing: 1px;
 	}
 a {
@@ -35,13 +42,13 @@ a {
     letter-spacing: 3px;
 }
 a:link {
-    color: #93BAB5;
+    color: #DEA37E;
     }
 a:hover {
-    color: #156369;
+    color: #787878;
 }
 a:visited {
-    color: #93BAB5;
+    color: #DEA37E;
     }
 li {
 	display: inline;
