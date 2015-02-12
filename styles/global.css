@@ -5,7 +5,8 @@ html {
 	background-color: #FFFFFF;
 	width: 680px;
 	height: 1240px;
-	padding: 25px auto 0 auto;
+	margin: 25px auto 0px auto;
+	padding: 0px;
 }
 div {
 	display: block;
