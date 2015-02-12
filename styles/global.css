@@ -13,7 +13,7 @@ div {
 }
 body {
     background-color: #E3E3E3;
-    font-size: 20px;
+    font-size: 40px;
     font-family: arial, sans-serif;
     text-align: center;
     }
@@ -31,23 +31,23 @@ h1 {
 	margin-bottom: 90px;
 	font-size: 16px;
 	font-weight: normal;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 	border-bottom-style: dashed;
 	border-bottom-width: thin;
 	}
 a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 1px;
 }
 a:link {
-    color: #000000;
+    color: #B5B5B5;
     }
 a:hover {
-    color: #787878;
+    color: #A1C9D6;
 }
 a:visited {
-    color: #000000;
+    color: #B5B5B5;
     }
 li {
 	display: inline;
@@ -61,4 +61,5 @@ nav ul {
 .back {
     font-size: 11px;
     letter-spacing: 0px;
+    padding: 10px;
 }
