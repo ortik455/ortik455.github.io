@@ -1,12 +1,20 @@
 html {
 	overflow-y: scroll;
 }
+#mainbody {
+	background-color: #FFFFFF;
+	width: 680px;
+	height: 1240px;
+	padding: 25px auto 0 auto;
+}
+div {
+	display: block;
+}
 body {
     background-color: #E3E3E3;
     font-size: 16px;
     font-family: arial, sans-serif;
     text-align: center;
-    
     }
 p {
     color: black;
