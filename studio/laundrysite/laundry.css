@@ -4,17 +4,19 @@
 	height: 700px;
 	margin: 0px;
 	padding: 0px;
-	outline: red;
+	outline: red 1px;
 }
 .text {
     width: 712px;
     height: 700px;
     float: left;
+    outline: red solid 1px;
 }
 .photos {
     width: 712px;
     height: 700px;
-    : right;
+    float: right;
+    outline: red solid 1px;
 }
 body {
     background-color: #FFFFFF;
