@@ -4,7 +4,15 @@ div {
 	height: 700px;
 	margin: 0px;
 	padding: 0px;
-	outline: red 1px;
+
+}
+.text {
+    width: 50%;
+    float: left;
+}
+.photos {
+    width: 50%;
+    float: right;
 }
 body {
     background-color: #FFFFFF;
