@@ -1,13 +1,18 @@
 #main_body {
-	background-color: #FFFFFF;
-	width: 1280px;
-	height: 740px;
-	margin: 25px auto 0px auto;
+	background-color: #CCCCCC;
+	width: 1424px;
+	height: 700px;
+	margin: 0px;
 	padding: 0px;
 	outline: red;
 }
-div {
-	display: block;
+.text {
+    width: 712px;
+    position: left;
+}
+.photos {
+    width: 712px;
+    position: right;
 }
 body {
     background-color: #CCCCCC;
@@ -19,20 +24,6 @@ p {
     color: black;
     font-size: 14px;
 }
-h1 {
-	background-color: #FFFFFF;
-    text-align: center;
-	color: #DB9484;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	margin-top: 10px;
-	margin-bottom: 90px;
-	font-size: 16px;
-	font-weight: normal;
-	letter-spacing: 10px;
-	border-bottom-style: dashed;
-	border-bottom-width: thin;
-	}
 a {
     text-decoration: none;
     font-size: 40px;
@@ -47,15 +38,6 @@ a:visited {
 a:hover {
     color: #A1C9D6;
 }
-li {
-	display: inline;
-	padding-right: 20px;
-	font-size: 20px;
-	}
-nav ul {
-	text-align: center;
-	word-spacing: 30px;
-	}
 .back {
     font-size: 11px;
     letter-spacing: 0px;
