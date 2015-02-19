@@ -1,5 +1,5 @@
 #main_body {
-	background-color: #CCCCCC;
+	background-color: #FFFFFF;
 	width: 1424px;
 	height: 700px;
 	margin: 0px;
@@ -8,15 +8,17 @@
 }
 .text {
     width: 712px;
-    position: left;
+    height: 700px;
+    float: left;
 }
 .photos {
     width: 712px;
-    position: right;
+    height: 700px;
+    : right;
 }
 body {
-    background-color: #CCCCCC;
-    font-size: 30px;
+    background-color: #FFFFFF;
+    font-size: 20px;
     font-family: arial, sans-serif;
     text-align: center;
     }
