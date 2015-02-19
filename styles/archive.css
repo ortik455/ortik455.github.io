@@ -3,39 +3,39 @@ html {
 }
 body {
     background-color: #FFFFFF;
-    font-size: 20px;
+    font-size: 16px;
     font-family: arial, sans-serif;
     text-align: left;
     }
 .thumbs1 {
-    width: 854px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 870px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 .thumbs2 {
-    width: 244px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 350px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 .thumbs3 {
-    width: 366px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 450px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 .thumbs4 {
-    width: 244px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 350px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 .thumbs5 {
-    width: 122px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 280px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 .thumbs6 {
-    width: 244px;
-    padding-top: 20px;
-    padding-left: 10px;
+    width: 350px;
+    padding-bottom: 20px;
+    padding-left: 60px;
 }
 p {
     color: black;
