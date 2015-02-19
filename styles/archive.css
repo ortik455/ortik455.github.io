@@ -50,20 +50,6 @@ p {
     color: black;
     font-size: 14px;
 }
-h1 {
-	background-color: #FFFFFF;
-    text-align: center;
-	color: #DB9484;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	margin-top: 10px;
-	margin-bottom: 90px;
-	font-size: 16px;
-	font-weight: normal;
-	letter-spacing: 10px;
-	border-bottom-style: dashed;
-	border-bottom-width: thin;
-	}
 a {
     text-decoration: none;
     font-size: 40px;
@@ -81,7 +67,6 @@ a:hover {
 li {
 	display: inline;
 	padding-right: 20px;
-	font-size: 20px;
 	}
 .back {
     font-size: 11px;
