@@ -4,7 +4,6 @@ div {
 	height: 700px;
 	margin: 0px;
 	padding: 0px;
-
 }
 .text {
     width: 50%;
@@ -17,7 +16,7 @@ div {
 body {
     background-color: #FFFFFF;
     font-size: 20px;
-    font-family: arial, sans-serif;
+    font-family: Inconsolata, sans-serif;
     text-align: center;
     }
 p {
