@@ -8,6 +8,7 @@ div {
 .text {
     width: 50%;
     float: left;
+    text-align: left;
 }
 .photos {
     width: 50%;
@@ -25,17 +26,17 @@ p {
 }
 a {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 a:link {
-    color: #B5B5B5;
+    color: #000000;
     }
 a:visited {
-    color: #B5B5B5;
+    color: #000000;
     }
 a:hover {
-    color: #A1C9D6;
+    color: #000000;
 }
 .back {
     font-size: 11px;
