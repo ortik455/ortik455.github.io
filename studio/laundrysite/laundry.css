@@ -3,10 +3,11 @@ body{
 	font-size: 0px;
 	margin: 0;
 	font-family: Inconsolata, sans-serif;
+	 height: 725px;
 }
 .wrapper {
     width: 1440px;
-    height: 700px;
+    height: 725px;
 	margin: 0 auto;
 }
 div {
@@ -15,12 +16,15 @@ div {
 	font-size: 20px;
 }
 .text {
-    padding: 10px;
-    display: inline-block;
+    width: 700px;
+    height: 715px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .photos {
     width:720px;
-    display: inline-block;
+    float: left;
 }
 a:link {
     text-decoration:none;
