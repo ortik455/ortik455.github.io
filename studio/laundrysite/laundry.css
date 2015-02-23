@@ -2,6 +2,7 @@ body{
 	background: #ffff00;
 	font-size: 0px;
 	margin: 0;
+	outline: red;
 }
 .wrapper {
 	width: 960px;
