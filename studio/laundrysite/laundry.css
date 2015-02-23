@@ -6,6 +6,7 @@ body{
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+	display: inline-block;
 }
 div {
 	background-color: #FFFFFF;
@@ -13,13 +14,10 @@ div {
 	padding: 0px;
 }
 .text {
-    width: 50%;
-    float: left;
     text-align: left;
 }
 .photos {
-    width: 50%;
-    float: right;
+    text-align: right;
 }
 body {
     background-color: #FFFFFF;
