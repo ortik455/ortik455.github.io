@@ -1,29 +1,29 @@
 body{
-	background: #ffff00;
+	background: #FFFFFF;
 	font-size: 0px;
 	margin: 0;
 	font-family: Inconsolata, sans-serif;
 }
 .wrapper {
     width: 1440px;
+    height: 700px;
 	margin: 0 auto;
-	float: left;
 }
 div {
-	background-color: #FFFFFF;
 	margin: 0px;
 	padding: 0px;
+	font-size: 20px;
 }
 .text {
-    width:710px;
     padding: 10px;
-    text-align: left;
+    display: inline-block;
 }
 .photos {
     width:720px;
-    text-align: right;
+    display: inline-block;
 }
 a:link {
+    text-decoration:none;
     color: #000000;
     }
 a:visited {
