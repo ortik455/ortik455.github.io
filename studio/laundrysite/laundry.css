@@ -2,10 +2,10 @@ body{
 	background: #ffff00;
 	font-size: 0px;
 	margin: 0;
-	outline: red;
+	font-family: Inconsolata, sans-serif;
 }
 .wrapper {
-	width: 960px;
+    width: 1440px;
 	margin: 0 auto;
 	float: left;
 }
@@ -15,26 +15,13 @@ div {
 	padding: 0px;
 }
 .text {
+    width:710px;
     padding: 10px;
     text-align: left;
 }
 .photos {
+    width:720px;
     text-align: right;
-}
-body {
-    background-color: #FFFFFF;
-    font-size: 20px;
-    font-family: Inconsolata, sans-serif;
-    text-align: center;
-    }
-p {
-    color: black;
-    font-size: 14px;
-}
-a {
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1px;
 }
 a:link {
     color: #000000;
@@ -43,10 +30,5 @@ a:visited {
     color: #000000;
     }
 a:hover {
-    color: #000000;
-}
-.back {
-    font-size: 11px;
-    letter-spacing: 0px;
-    padding: 10px;
+    color: #B5B5B5;
 }
