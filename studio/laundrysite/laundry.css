@@ -30,12 +30,13 @@ div {
    position: static;
    top: 0px;
    left: 0px;
+   padding: 10px 5px 20px 10px;
 }
 .steps {
    position: fixed;
    bottom: 0px;
    left: 0px;
-   padding: 10px 5px 5px 10px;
+   padding: 10px 5px 20px 15px;
     
 }
 a:link {
