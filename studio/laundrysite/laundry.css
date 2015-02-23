@@ -1,7 +1,14 @@
+body{
+	background: #ffff00;
+	font-size: 0px;
+	margin: 0;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
 div {
 	background-color: #FFFFFF;
-	width: 1500px;
-	height: 700px;
 	margin: 0px;
 	padding: 0px;
 }

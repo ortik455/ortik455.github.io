@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	font-size: 30px;
+	color: #ffffff;
+	font-family: arial, helvetica, sans-serif;
+}
+.outer-wrapper {
+	background: #ff0;
+	height: 2000px ;
+	width: 960px;
+	padding: 30px;
+	margin: 100px auto 0 auto;
+}
+.wrapper {
+	width: 960px;
+	margin: 100px auto 0 auto;
+	background: #ff0;
+	position: relative;
+}
+.box {
+	width: 280px;
+	height: 280px;
+	background: #000000;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*static, absolute- rips out of doc, 
+	relative- keeps it in the flow of the document, 
+	fixed- out of document (from the window)*/
+}
+	
