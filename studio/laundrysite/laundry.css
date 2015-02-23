@@ -26,6 +26,17 @@ div {
     width:720px;
     float: left;
 }
+.number {
+   position: static;
+   top: 0px;
+   left: 0px;
+}
+.steps {
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+    
+}
 a:link {
     text-decoration:none;
     color: #000000;
