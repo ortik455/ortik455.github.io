@@ -32,7 +32,7 @@ h1 {
 	font-size: 16px;
 	font-weight: normal;
 	letter-spacing: 5px;
-	border-style: solid;
+	border-style-bottom: solid;
 	border-bottom-width: thin;
 	}
 a {
