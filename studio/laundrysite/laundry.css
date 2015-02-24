@@ -1,29 +1,27 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body{
 	background: #FFFFFF;
 	font-size: 0px;
 	margin: 0;
 	font-family: Inconsolata, sans-serif;
-	 height: 725px;
+	height: 100%;
 }
-.wrapper {
-    width: 1440px;
-    height: 725px;
-	margin: 0 auto;
-}
-div {
-	margin: 0px;
-	padding: 0px;
-	font-size: 35px;
-}
+
 .text {
-    width: 700px;
+	font-size: 35px;
+    width: 50%;
     height: 715px;
     float: left;
     padding-left: 10px;
     padding-top: 10px;
 }
 .photos {
-    width:720px;
+    width: 50%;
     float: left;
 }
 .number {
@@ -41,11 +39,12 @@ div {
    padding: 10px 5px 20px 15px;
     
 }
-mark {
+
+.mark {
     background-color: #000000;
     color: #FFFFFF;
-    
 }
+
 a:link {
     text-decoration:none;
     color: #000000;
