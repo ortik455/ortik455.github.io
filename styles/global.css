@@ -3,7 +3,7 @@ html {
 }
 #main_body {
 	background-color: #FFFFFF;
-	width: 900px;
+	width: 1200px;
 	height: 1240px;
 	margin: 25px auto 0px auto;
 	padding: 0px;
@@ -13,7 +13,7 @@ div {
 }
 body {
     background-color: #EDEDED;
-    font-size: 30px;
+    font-size: 20px;
     font-family: arial, sans-serif;
     text-align: center;
     }
@@ -24,20 +24,20 @@ p {
 h1 {
 	background-color: #FFFFFF;
     text-align: center;
-	color: #DB9484;
+	color: #000000;
 	padding-top: 40px;
 	padding-bottom: 20px;
 	margin-top: 10px;
 	margin-bottom: 90px;
 	font-size: 16px;
 	font-weight: normal;
-	letter-spacing: 10px;
-	border-bottom-style: dashed;
+	letter-spacing: 5px;
+	border-style: solid;
 	border-bottom-width: thin;
 	}
 a {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
 }
 a:link {
@@ -52,14 +52,13 @@ a:hover {
 li {
 	display: inline;
 	padding-right: 20px;
-	font-size: 20px;
 	}
 nav ul {
 	text-align: center;
-	word-spacing: 30px;
+	word-spacing: 20px;
 	}
 .back {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0px;
     padding: 10px;
 }
