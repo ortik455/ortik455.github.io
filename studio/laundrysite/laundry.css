@@ -31,6 +31,7 @@ body{
 }
 .steps {
    font-size: 35px;
+   text-align: right;
    position: fixed;
    bottom: 0px;
    right: 0px;
