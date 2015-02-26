@@ -17,8 +17,6 @@ body{
     width: 50%;
     height: 715px;
     float: left;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 .photos {
     width: 50%;
@@ -26,17 +24,17 @@ body{
 }
 .number {
    font-size: 20px;
-   position: static;
+   position: fixed;
    top: 0px;
-   left: 0px;
-   padding: 10px 5px 20px 10px;
+   right: 0px;
+   padding: 10px 15px 20px 5px;
 }
 .steps {
    font-size: 35px;
    position: fixed;
    bottom: 0px;
-   left: 0px;
-   padding: 10px 5px 20px 15px;
+   right: 0px;
+   padding: 10px 15px 20px 5px;
     
 }
 

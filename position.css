@@ -25,8 +25,9 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	/*static, absolute- rips out of doc, 
+	/*static, absolute- moves with the page while scrolling, can  , 
 	relative- keeps it in the flow of the document, 
-	fixed- out of document (from the window)*/
+	fixed- out of document (from the window) depends on 
+	what you say the dimensions are*/
 }
 	
