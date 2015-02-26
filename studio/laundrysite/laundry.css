@@ -11,7 +11,14 @@ body{
 	font-family: Inconsolata, sans-serif;
 	height: 100%;
 }
-
+.start{
+   font-size: 35px;
+   text-align: left;
+   position: fixed;
+   bottom: 307px;
+   left: 0px;
+   padding: 10px 15px 20px 5px;
+}
 .text {
 	font-size: 35px;
     width: 50%;
@@ -38,12 +45,10 @@ body{
    padding: 10px 15px 20px 5px;
     
 }
-
 .mark {
     background-color: #000000;
     color: #FFFFFF;
 }
-
 a:link {
     text-decoration:none;
     color: #000000;
