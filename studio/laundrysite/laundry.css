@@ -2,6 +2,7 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+            
 }
 
 body{
@@ -16,17 +17,15 @@ body{
     font-size: 50px;
     letter-spacing: 6px;
     position: absolute;
-    width: 100%;
     bottom: 50%;
-    padding-left: 40%;
+    margin-left: 20px;
 }
 .mark {
     background-color: #000000;
     color: #FFFFFF;
 }
 .mark:hover {
-    background: #ffffff;
-    color: #000000;
+    letter-spacing: 20px;
 }
 .text {
 	font-size: 35px;
