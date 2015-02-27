@@ -12,13 +12,14 @@ body{
 	height: 100%;
 }
 .start{
+    background-color: #000000;
+    color: #FFFFFF;
    font-size: 35px;
-   color: #FFFFFF;
    text-align: left;
    position: fixed;
    bottom: 307px;
-   left: 0px;
-   padding: 10px 15px 20px 5px;
+   left: 10px;
+   
 }
 .text {
 	font-size: 35px;
