@@ -9,7 +9,7 @@ body{
 	background: #FFFFFF;
 	font-size: 0px;
 	margin: 0;
-	font-family: Inconsolata, sans-serif;
+	font-family: Courier New, sans-serif;
 	height: 100%;
 }
 .start{ 
@@ -24,9 +24,6 @@ body{
     background-color: #000000;
     color: #FFFFFF;
 }
-.mark:hover {
-    letter-spacing: 20px;
-}
 .text {
 	font-size: 35px;
     width: 50%;
@@ -39,7 +36,7 @@ body{
     float: left;
 }
 .number {
-   font-size: 20px;
+   font-size: 35px;
    position: fixed;
    top: 0px;
    right: 0px;
