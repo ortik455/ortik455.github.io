@@ -2,49 +2,74 @@ html {
 	overflow-y: scroll;
 }
 body {
-    background-color: #FFFFFF;
-    font-size: 16px;
-    font-family: arial, sans-serif;
-    text-align: left;
+    font-family: consolas, sans-serif;
     }
+.content {
+	background: #ffffff;
+}
+.bar1 {
+    background: #D4D4D4;
+    height: 15px;
+    width: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bar2 {
+    background: #D4D4D4;
+    height: 800px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.column {
+    margin: 25px 5px 20px 45px;
+    
+}
 .thumbs1 {
-    width: 1000px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    font-size: 1px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 5px;
+    width: 500px;
 }
 .thumbs2 {
-    width: 350px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 180px;
 }
 .thumbs3 {
-    width: 450px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 280px;
 }
 .thumbs4 {
-    width: 350px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 180px;
 }
 .thumbs5 {
-    width: 280px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 130px;
 }
 .thumbs6 {
-    width: 350px;
-    padding-bottom: 20px;
-    padding-left: 60px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 50px;
 }
 .thumbs7 {
-    width: 200px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-}
-.pic {
-    display: left;
-    margin: 30px;
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 20px;
+    width: 50px;
+    height: 45px;
 }
 p {
     color: black;
@@ -56,18 +81,14 @@ a {
     letter-spacing: 1px;
 }
 a:link {
-    color: #B5B5B5;
+    color: #000000;
     }
 a:visited {
-    color: #B5B5B5;
+    color: #000000;
     }
 a:hover {
-    color: #A1C9D6;
+    color: #ff00ff;
 }
-li {
-	display: inline;
-	padding-right: 20px;
-	}
 .back {
     font-size: 11px;
     letter-spacing: 0px;
