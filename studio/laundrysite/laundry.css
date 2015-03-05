@@ -82,9 +82,9 @@ a:visited {
     color: #000000;
 }
 .photos:hover img {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .photos img {
-    transition: transform .2s ease;
+    transition: transform 2s ease;
 }
 
