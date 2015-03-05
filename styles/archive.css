@@ -3,6 +3,8 @@ html {
 }
 body {
     font-family: consolas, sans-serif;
+    width: 600px;
+    height: 1000px;
     }
 .content {
 	background: #ffffff;
@@ -10,7 +12,7 @@ body {
 .bar1 {
     background: #D4D4D4;
     height: 15px;
-    width: 700px;
+    width: 600px;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,53 +25,115 @@ body {
     top: 0;
     left: 0;
 }
-.column {
-    margin: 25px 5px 20px 45px;
-    
+.row1 {
+    width: 464px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
 }
-.thumbs1 {
+
+.row2 {
+    width: 158px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.row3 {
+    width: 400px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.row4 {
+    width: 500px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.row5 {
+    width: 500px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.row6 {
+    width: 500px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.row7 {
+    width: 560px;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    float: left;
+}
+.thumb1 {
     font-size: 1px;
     background: #ffffff;
     outline: 1px solid #000000;
-    padding: 5px;
-    width: 500px;
-}
-.thumbs2 {
-    background: #ffffff;
-    outline: 1px solid #000000;
-    padding: 20px;
-    width: 180px;
-}
-.thumbs3 {
-    background: #ffffff;
-    outline: 1px solid #000000;
-    padding: 20px;
-    width: 280px;
-}
-.thumbs4 {
-    background: #ffffff;
-    outline: 1px solid #000000;
-    padding: 20px;
-    width: 180px;
-}
-.thumbs5 {
-    background: #ffffff;
-    outline: 1px solid #000000;
-    padding: 20px;
-    width: 130px;
-}
-.thumbs6 {
-    background: #ffffff;
-    outline: 1px solid #000000;
-    padding: 20px;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
     width: 50px;
+    height: 40px;
+    float: left;
+    
 }
-.thumbs7 {
+.thumb2 {
+    font-size: 1px;
     background: #ffffff;
     outline: 1px solid #000000;
-    padding: 20px;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
+    width: 70px;
+    float: left;
+}
+.thumb3 {
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
+    width: 70px;
+    float: left;
+}
+.thumb4 {
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
+    width: 70px;
+    float: left;
+}
+.thumb5 {
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
+    width: 90px;
+    float: left;
+}
+.thumb6 {
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+.thumb7 {
+    background: #ffffff;
+    outline: 1px solid #000000;
+    padding: 2px;
+    margin: 10px 2px 5px 2px;
     width: 50px;
     height: 45px;
+    float: left;
+}
+.other{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 p {
     color: black;
