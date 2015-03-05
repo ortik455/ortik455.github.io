@@ -15,18 +15,16 @@
     background: #000000;
     color: #ffffff;
     top: 50%;
-    left: 250px;
-    float: left;
-    font-size: 40px;
+    left: 275px;
+    font-size: 60px;
 }
 .timer2 {
     position: absolute;
     background: #000000;
     color: #ffffff;
     top: 50%;
-    left: 50px;
-    float: left;
-    font-size: 40px;
+    left: 275px;
+    font-size: 60px;
 }
 
 body{
@@ -58,6 +56,7 @@ body{
     width: 50%;
     height: 100%;
     float: left;
+    overflow: hidden;
 }
 .number {
    font-size: 35px;
@@ -83,9 +82,9 @@ a:visited {
     color: #000000;
 }
 .photos:hover img {
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 .photos img {
-    transition: transform 2s ease;
+    transition: transform .2s ease;
 }
 
