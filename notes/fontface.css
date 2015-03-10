@@ -12,7 +12,7 @@ body {
 	margin: 0 30px 100px 0;
 }
 .letter {
-	background: #ff0;
+	/*background: #ff0;*/
 	width: 300px;
 	height: 400px;
 	position: relative; /*makes child positioned within the yellow box*/
@@ -20,6 +20,17 @@ body {
 .bar {
 	background: #000;
 	position: absolute;
+	border-radius: 20px;
+}
+.circle {
+    background: #000;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	border-radius: 100px;
 }
 .horizontal {
 	height: 50px;
