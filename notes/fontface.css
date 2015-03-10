@@ -1,0 +1,56 @@
+body {
+	/*background: #ff0;*/
+	font-size: 0;
+}
+.word-wrapper {
+	display: inline-block;
+	margin-right: 50px
+}
+.aa { width: 660px; }
+.letter-wrapper {
+	display: inline-block;
+	margin: 0 30px 100px 0;
+}
+.letter {
+	background: #ff0;
+	width: 300px;
+	height: 400px;
+	position: relative; /*makes child positioned within the yellow box*/
+}
+.bar {
+	background: #000;
+	position: absolute;
+}
+.horizontal {
+	height: 50px;
+	width: 300px; /* 100% flexible with the letter box*/
+}
+.vertical {
+	width: 50px;
+	height: 400px;
+}
+.a-left {
+	top: 0;
+	left: 0;
+}
+.a-top {
+	top: 0;
+	left: 0;
+}
+.a-right {
+	right: 0;
+}
+.a-mid {
+	left: 0;
+	top: 175px;
+}
+.red {
+	background: #f00;
+}
+/*
+	static
+	fixed
+	absolute:; takes it out of the flow of 
+			   the doc and puts it where you want to
+	relative
+*/
