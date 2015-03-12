@@ -11,12 +11,9 @@ body {
     font-size: 12px;
     width: 25px;
     height: 1250px;
-    position: stati;
+    position: fixed;
     top: 50px;
     left: 7px;
-}
-.content {
-	background: #ffffff;
 }
 .bar3 {
     font-size: 18px;
@@ -44,6 +41,9 @@ body {
     position: absolute;
     top: 25px;
     left: 0;
+}
+.content {
+	background: #ffffff;
 }
 .row1 {
     text-align: center;
