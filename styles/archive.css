@@ -6,16 +6,17 @@ body {
     width: 600px;
     height: 1000px;
     }
-.content {
-	background: #ffffff;
-}
 .range {
+    color: #000000;
     font-size: 12px;
     width: 25px;
     height: 1250px;
-    position: absolute;
+    position: stati;
     top: 50px;
     left: 7px;
+}
+.content {
+	background: #ffffff;
 }
 .bar3 {
     font-size: 18px;
@@ -90,7 +91,7 @@ body {
     width: 30px;
     height: 18px;
     float: left;
-    }
+}
 .thumb2 {
     vertical-align: middle;
     line-height: 30px;
@@ -263,7 +264,6 @@ a:hover {
 .other a {
     color: #000000;
 }
-
 .back {
     font-size: 11px;
     letter-spacing: 0px;
