@@ -1,20 +1,56 @@
 html {
 	overflow-y: scroll;
+	width: 800px;
 }
 body {
     font-family: consolas, sans-serif;
     width: 600px;
     height: 1000px;
     }
-.range {
+.numbers {
+    text-align: center;
+    vertical-align: middle;
     color: #000000;
     font-size: 12px;
     width: 25px;
-    height: 1250px;
-    position: fixed;
-    top: 50px;
+    height: 650px;
+    position: absolute;
+    top: 40px;
+    left: 7px;
+    z-index: 1;
+}
+.range {
+    height: 30px;
+    position: absolute;
+    top: 4px;
     left: 7px;
 }
+.range1 {
+    height: 30px;
+    position: absolute;
+    top: 75px;
+    left: 5px;
+}.range2 {
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 4px;
+}.range3 {
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 7px;
+}.range4 {
+    height: 30px;
+    position: absolute;
+    top: 325px;
+    left: 4px;
+}.range5 {
+    height: 30px;
+    position: absolute;
+    top: 600px;
+}
+
 .bar3 {
     font-size: 18px;
     text-align: center;
@@ -258,7 +294,11 @@ a:visited {
     color: #ffffff;
     }
 a:hover {
-    color: #0026FF;
+    color: #00EEFF;
+}
+a:active {
+    background: #91D0F2;
+    color: #000000;
 }
 
 .other a {
