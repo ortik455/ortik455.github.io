@@ -32,6 +32,7 @@ h1 {
 	border-bottom-style: 2px solid;
 	}
 h2 {
+width: 200px;
 background-color: #00ffff;
 color: #000000;
 margin-top: 10px;
