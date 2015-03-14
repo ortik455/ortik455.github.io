@@ -3,10 +3,11 @@ html {
 }
 #main_body {
 	background-color: #FFFFFF;
-	width: 1000px;
+	width: 500px;
 	height: 600px;
-	margin: 25px auto 0px auto;
 	padding: 0px;
+	position: absolute;
+	left: 45%;
 }
 div {
 	display: block;
@@ -26,8 +27,7 @@ h1, h2, h3 {
 	background-color: #FFFFFF;
     text-align: left;
 	color: #000000;
-	margin-top: 5px;
-	margin-left: 30px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 22px;
 	font-weight: 300;
@@ -48,7 +48,6 @@ a {
 nav ul {
 	text-align: left;
 	padding: 0;
-	margin-left: 30px;
 	}
 a:link {
     color: #000000;
