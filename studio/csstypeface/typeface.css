@@ -11,7 +11,7 @@ body {
     height: 650px;
     background: #ffffff;
 }
-.slideshow {
+.numbers {
     position: relative;
     overflow: hidden;
     width: 300%;
@@ -54,5 +54,23 @@ body {
 }
 .nine {
     padding-right: 100px;
+    float: left;
+}
+.letters1 {
+    position: absolute;
+    top: 150px;
+    overflow: hidden;
+    width: 300%;
+}
+.a {
+    padding-right: 120px;
+    float: left;
+}
+.b {
+    padding-right: 120px;
+    float: left;
+}
+.c {
+    padding-right: 120px;
     float: left;
 }
