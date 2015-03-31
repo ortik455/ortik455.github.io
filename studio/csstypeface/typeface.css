@@ -4,64 +4,83 @@
             box-sizing: border-box;
             
 }
-html {
-	overflow-x: scroll;
-}
-body {
-    height: 650px;
-    background: #ffffff;
-}
-.numbers {
-    position: relative;
-    overflow: hidden;
-    width: 300%;
-}
 .zero {
-    padding-right: 100px;
-    float: left;
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    outline: solid red 1px;
+}
+.rightside {
+    position: relative;
+    top: -210px;
+    left: 75px;
+    background-image: url("rightsidezero.png");
+    width: 60px;
+    height: 150px;
+    /*outline: solid blue 1px;*/
+    z-index: 1;
+}
+.top {
+    position: relative;
+    background-image: url("topzero.png");
+    width: 135px;
+    height: 60px;
+    /*outline: solid yellow 1px;*/
+    z-index: 3;
+}
+.leftside {
+    position: relative;
+    top: -60px;
+    background-image: url("sidezero.png");
+    width: 60px;
+    height: 150px;
+    /*outline: solid blue 1px;*/
+    z-index: 4;
+}
+.bottom {
+    position: relative;
+    top: 90px;
+    background-image: url("bottomzero.png");
+    width: 135px;
+    height: 60px;
+    /*outline: solid yellow 1px;*/
+    z-index: 2;
 }
 .one {
-    padding-right: 100px;
-    float: left;
-}
-.two {
-    padding-right: 100px;
-    float: left;
-}
-.three {
-    padding-right: 100px;
-    float: left;
-}
-.four {
-    padding-right: 100px;
-    float: left;
-}
-.five {
-    padding-right: 100px;
-    float: left;
-}
-.six {
-    padding-right: 100px;
-    float: left;
-}
-.seven {
-    padding-right: 100px;
-    float: left;
-}
-.eight {
-    padding-right: 100px;
-    float: left;
-}
-.nine {
-    padding-right: 100px;
-    float: left;
-}
-.letters1 {
+    width: 135px;
+    height: 210px;
     position: absolute;
-    top: 150px;
-    overflow: hidden;
-    width: 300%;
+    top: 60px;
+    left: 380px;
+    outline: solid red 1px;
 }
+.top1 {
+    position: relative;
+    background-image: url("top1.png");
+    width: 120px;
+    height: 60px;
+}
+.middle1 {
+    position: relative;
+    left: 38px;
+    background-image: url("middle1.png");
+    width: 60px;
+    height: 96px;
+}
+.bottom1 {
+    position: relative;
+    background-image: url("bottom1.png");
+    width: 135px;
+    height: 60px;
+}
+
+
+
+
+
+
 .a {
     padding-right: 120px;
     float: left;
@@ -81,4 +100,18 @@ body {
 .e {
     padding-right: 120px;
     float: left;
+}
+.row {
+    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+}
+.inner-row {
+    width: 9000px;
+}
+.row2 {
+    top: -140px;
+    z-index: 1;
 }
