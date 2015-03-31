@@ -1,0 +1,58 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            
+}
+html {
+	overflow-x: scroll;
+}
+body {
+    height: 650px;
+    background: #ffffff;
+}
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    width: 300%;
+}
+.zero {
+    padding-right: 100px;
+    float: left;
+}
+.one {
+    padding-right: 100px;
+    float: left;
+}
+.two {
+    padding-right: 100px;
+    float: left;
+}
+.three {
+    padding-right: 100px;
+    float: left;
+}
+.four {
+    padding-right: 100px;
+    float: left;
+}
+.five {
+    padding-right: 100px;
+    float: left;
+}
+.six {
+    padding-right: 100px;
+    float: left;
+}
+.seven {
+    padding-right: 100px;
+    float: left;
+}
+.eight {
+    padding-right: 100px;
+    float: left;
+}
+.nine {
+    padding-right: 100px;
+    float: left;
+}
