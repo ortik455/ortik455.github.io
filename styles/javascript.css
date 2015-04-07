@@ -8,8 +8,13 @@ html {
 	margin: 25px auto 0px auto;
 	padding: 0px;
 }
-div {
-	display: block;
+.C1 {
+	float: left;
+	width: 50%;
+}
+.C2 {
+	float: left;
+	width: 50%;
 }
 body {
 	padding-left: 5px;
@@ -32,7 +37,7 @@ h1 {
 	border-bottom-style: 2px solid;
 	}
 h2 {
-width: 200px;
+width: 300px;
 background-color: #00ffff;
 color: #000000;
 margin-top: 10px;

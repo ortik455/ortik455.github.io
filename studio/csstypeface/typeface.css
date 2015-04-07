@@ -59,7 +59,7 @@
 .top1 {
     position: relative;
     background-image: url("top1.png");
-    width: 120px;
+    width: 100px;
     height: 60px;
 }
 .middle1 {
@@ -75,32 +75,221 @@
     width: 135px;
     height: 60px;
 }
-
-
+.two {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 380px;
+    outline: solid red 1px;
+}
+.rightside2 {
+    position: relative;
+}
+.leftside2 {
+    position: relative;
+}
+.rightside2 {
+    position: relative;
+}
+.leftside2 {
+    position: relative;
+}
 
 
 
 
 .a {
-    padding-right: 120px;
-    float: left;
+    width: 202px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    outline: solid blue 1px;
+}
+.lefta {
+    position: relative;
+    background-image: url("lefta.png");
+    width: 110px;
+    height: 210px;
+}
+.righta {
+    position: relative;
+    background-image: url("righta.png");
+    width: 92px;
+    height: 210px;
+    top: -210px;
+    left: 110px;
 }
 .b {
-    padding-right: 120px;
-    float: left;
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    outline: solid blue 1px;
+}
+.topb {
+    position: relative;
+    background-image: url("topb.png");
+    width: 135px;
+    height: 57px;
+}
+.leftb {
+    position: relative;
+    background-image: url("leftb.png");
+    width: 58px;
+    height: 153px;
+    top: -115px;
+}
+.rightb {
+    position: relative;
+    background-image: url("rightb.png");
+    width: 39px;
+    height: 153px;
+    left: 96px;
+    top: -268px;
+}
+.middleb {
+    position: relative;
+    background-image: url("middleb.png");
+    width: 39px;
+    height: 115px;
+    left: 58px;
+    top: 38px;
 }
 .c {
-    padding-right: 120px;
-    float: left;
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 730px;
+    outline: solid green 1px;
+}
+.leftc {
+    position: relative;
+    background-image: url("leftb.png");
+    width: 58px;
+    height: 153px;
+}
+.bottomc {
+    position: relative;
+    background-image: url("bottomc.png");
+    width: 135px;
+    height: 57px;
+    top: -57px;
 }
 .d {
-    padding-right: 120px;
-    float: left;
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 1050px;
+    outline: solid blue 1px;
+}
+.rightd {
+    position: relative;
+    background-image: url("rightd.png");
+    width: 39px;
+    height: 153px;
+    top: -193px;
+    left: 96px;
+}
+.bottomd {
+    position: relative;
+    background-image: url("bottomd.png");
+    width: 40px;
+    height: 40px;
+    top: -40px;
+    left: 58px;
 }
 .e {
-    padding-right: 120px;
-    float: left;
+    width: 202px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 1350px;
+    outline: solid green 1px;
 }
+.tope {
+    position: relative;
+    background-image: url("tope.png");
+    width: 202px;
+    height: 56px;
+}
+.middlee {
+    position: relative;
+    background-image: url("middlee.png");
+    width: 137px;
+    height: 96px;
+}
+.bottome {
+    position: relative;
+    background-image: url("bottome.png");
+    width: 202px;
+    height: 56px;
+}
+.f {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 1750px;
+    outline: solid blue 1px;
+}
+.leftf {
+    position: relative;
+    background-image: url("leftf.png");
+    width: 57px;
+    height: 210px;
+}
+.topf {
+    position: relative;
+    background-image: url("topf.png");
+    width: 77px;
+    height: 57px;
+    top: -210px;
+    left: 57px;
+}
+.bottomf {
+    position: relative;
+    background-image: url("bottomf.png");
+    width: 77px;
+    height: 57px;
+    top: -180px;
+    left: 57px;
+}
+.g {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 2050px;
+    outline: solid green 1px;
+}
+.leftg {
+    position: relative;
+    background-image: url("leftg.png");
+    width: 57px;
+    height: 210px;
+}
+.topg {
+    position: relative;
+    background-image: url("topg.png");
+    width: 77px;
+    height: 57px;
+    top: -210px;
+    left: 57px;
+}
+.bottomg {
+    position: relative;
+    background-image: url("bottomg.png");
+    width: 77px;
+    height: 77px;
+    top: -134px;
+    left: 57px;
+}
+
 .row {
     width: 100%;
     overflow: scroll;

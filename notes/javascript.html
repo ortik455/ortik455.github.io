@@ -9,6 +9,7 @@
 
 	<body>
 		<h1> Javascript Notes</h1>
+		<div class="C1">
 		<h2> Variables</h2>
 		<p>
 			You can change them anytime in your program.<br>
@@ -125,7 +126,115 @@
 			
 			
 		</p>
+		</div>
 		
+		
+<div class="C2">
+April 2, 2015 Lab Notes
+<h2>FUNCTIONS</h2>
+are used to perform reuseable tasks. Don't use numbers in func. name
+<p>
+<br>
+function myFunction(arg1, arg2) {<br>
+	console.log("Hello world");	<br>
+}<br>
+myFunction() ...need 2 parenthesis to call the function.<br>
+> Hello World<br>
+</p>
+<h2>ADDING 2 Numbers Together</h2>
+<p>
+function addNums(num1, num2) {<br>
+	var sum = num1 + num2;<br>
+	console.log(sum); ...this is the answer<br>
+}<br>
+addNums(4,5);<br>
+>9<br>
+</p>
+<h2>RETURN FUNCTION</h2> instead of console.log
+<br>
+<p>
+function add(num1, num2) {<br>
+	var sum = num1 + num2;<br>
+	return sum;<br>
+}<br>
+add(20,30)<br>
+>50<br>
+<br>
+var mySum = add(20,30); ...you can store return values this way<br>
+mySum<br>
+>50<br>
+<br>
+</p>
+<h2>OBJECTS</h2> allow us to store complex data in JS variables, with key values<br>
+<br>
+<p>
+var myArray = ["hello", 2, "world", false]<br>
+>undefined<br>
+myArray[0]<br>
+>"hello"<br>
+ ...objects use {} to define functions and seperated by commas<br>
+var myObject = {<br>
+name; "Kamila", <br>
+age: 20,<br>
+currentLocations: "New York, NY"<br>
+}<br>
+undefined<br>
+myObject.name<br>
+>Kamila<br>
+myObject.age<br>
+>20<br>
+myObject.name = Sally<br>
+>Sally ... to rename objects<br>
+<br>
+</p>
+<h2>JQUERY</h2>
+<br>
+<p>
+always begins with a $. allows us to manipulate the document object model DOM(html source)<br>
+$(name of the element we want to define)<br>
+$("a"); ...target anchor tags<br>
+>all the anchor content<br>
+$("h1");<br>
+>[] ...there are no h1 on the page<br>
+$(".band"); ...use this to find classes<br>
+$(".band").html("<strong>Hello world</strong>");<br>
+>allows you to edit html in the Jquery function<br>
+$(".band").html("background-color", "red");<br>
+>how you change css in Jquery<br>
+$(".band").hide();<br>
+>hides the band. In the css it says "display: none;"<br>
+$(".band").show(); ...to bring it back<br>
+$(".band").remove(); ...permanently removes it from the DOM<br>
+<br>
+toggle class switches in between adding and removing it.<br>
+.append adds at the end<br>
+.prepend add before the content<br>
+<br>
+</p>
+<h2>CLICK STATE</h2> with if statement
+<br>
+<p>
+var clicked = false;<br>
+$(".course-info").click(function() {<br>
+	// do what I say in here...<br>
+	if (clicked == false) {<br>
+		$("body").css("background-color", "red");<br>
+		clicked = true;<br>
+	} else { //making it back to white<br>
+		clicked = false;<br>
+		$("body").css("background-color", "white");<br>
+	}<br>
+	});<br>
+> has been attached to the item on the page<br>
+</p>
+<h2>Mouse hover</h2>
+
+<p>.mousemove<br>
+.mouseenter<br>
+.mouseup<br>
+.mousedown<br>
+</p>
+</div>
 	</body>
 
 </html>
