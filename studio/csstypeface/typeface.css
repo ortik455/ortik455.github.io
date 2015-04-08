@@ -105,7 +105,6 @@
     position: absolute;
     top: 80px;
     left: 20px;
-    outline: solid blue 1px;
 }
 .lefta {
     position: relative;
@@ -127,7 +126,6 @@
     position: absolute;
     top: 80px;
     left: 400px;
-    outline: solid blue 1px;
 }
 .topb {
     position: relative;
@@ -164,7 +162,6 @@
     position: absolute;
     top: 80px;
     left: 730px;
-    outline: solid green 1px;
 }
 .leftc {
     position: relative;
@@ -185,7 +182,6 @@
     position: absolute;
     top: 80px;
     left: 1050px;
-    outline: solid blue 1px;
 }
 .rightd {
     position: relative;
@@ -209,7 +205,6 @@
     position: absolute;
     top: 80px;
     left: 1350px;
-    outline: solid green 1px;
 }
 .tope {
     position: relative;
@@ -235,7 +230,6 @@
     position: absolute;
     top: 80px;
     left: 1750px;
-    outline: solid blue 1px;
 }
 .leftf {
     position: relative;
@@ -265,7 +259,6 @@
     position: absolute;
     top: 80px;
     left: 2050px;
-    outline: solid green 1px;
 }
 .leftg {
     position: relative;
@@ -287,6 +280,167 @@
     width: 77px;
     height: 77px;
     top: -134px;
+    left: 57px;
+}
+.h {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 2350px;
+}
+.lefth {
+    position: relative;
+    background-image: url("lefth.png");
+    width: 57px;
+    height: 210px;
+}
+.righth {
+    position: relative;
+    background-image: url("righth.png");
+    width: 57px;
+    height: 210px;
+    top: -210px;
+    left: 76px;
+}
+.middleh {
+    position: relative;
+    background-image: url("middleh.png");
+    width: 39px;
+    height: 39px;
+    top: -325px;
+    left: 57px;
+}
+.i {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 2650px;
+}
+.onlyi {
+    position: relative;
+    background-image: url("i.png");
+    width: 57px;
+    height: 210px;
+    left: 45px;
+}
+.j {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 2950px;
+}
+.leftj {
+    position: relative;
+    background-image: url("leftj.png");
+    width: 57px;
+    height: 96px;
+    top: 114px;
+}
+.rightj {
+    position: relative;
+    background-image: url("rightj.png");
+    width: 57px;
+    height: 210px;
+    left: 76px;
+    top: -96px;
+}
+.middlej {
+    position: relative;
+    background-image: url("middleh.png");
+    width: 39px;
+    height: 39px;
+    top: -135px;
+    left: 57px;
+}
+.k {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 3250px;
+}
+.leftk {
+    position: relative;
+    background-image: url("leftk.png");
+    width: 57px;
+    height: 210px;
+}
+.topk {
+    position: relative;
+    background-image: url("topk.png");
+    width: 57px;
+    height: 95px;
+    top: -210px;
+    left: 78px;
+}
+.bottomk {
+    position: relative;
+    background-image: url("bottomk.png");
+    width: 57px;
+    height: 77px;
+    top: -173px;
+    left: 78px;
+}
+.middlek {
+    position: relative;
+    background-image: url("middlek.png");
+    width: 58px;
+    height: 39px;
+    top: -287px;
+    left: 57px;
+}
+.l {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 3550px;
+}
+.leftl {
+    position: relative;
+    background-image: url("leftl.png");
+    width: 57px;
+    height: 210px;
+}
+.bottoml {
+    position: relative;
+    background-image: url("bottoml.png");
+    width: 78px;
+    height: 39px;
+    top: -45px;
+    left: 57px;
+}
+.m {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: 3850px;
+    outline: solid blue 1px;
+}
+.leftm {
+    position: relative;
+    background-image: url("leftm.png");
+    width: 57px;
+    height: 210px;
+}
+.rightm {
+    position: relative;
+    background-image: url("rightm.png");
+    width: 57px;
+    height: 210px;
+    left: 76px;
+    top: -210px;
+}
+.middlem {
+    position: relative;
+    background-image: url("middlem.png");
+    width: 19px;
+    height: 95px;
+    top: -420px;
     left: 57px;
 }
 
