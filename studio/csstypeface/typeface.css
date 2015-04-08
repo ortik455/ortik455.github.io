@@ -4,6 +4,9 @@
             box-sizing: border-box;
             
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 .zero {
     width: 135px;
     height: 210px;
@@ -20,7 +23,6 @@
     width: 60px;
     height: 150px;
     /*outline: solid blue 1px;*/
-    z-index: 1;
 }
 .top {
     position: relative;
@@ -28,7 +30,6 @@
     width: 135px;
     height: 60px;
     /*outline: solid yellow 1px;*/
-    z-index: 3;
 }
 .leftside {
     position: relative;
@@ -37,7 +38,6 @@
     width: 60px;
     height: 150px;
     /*outline: solid blue 1px;*/
-    z-index: 4;
 }
 .bottom {
     position: relative;
@@ -46,7 +46,6 @@
     width: 135px;
     height: 60px;
     /*outline: solid yellow 1px;*/
-    z-index: 2;
 }
 .one {
     width: 135px;
@@ -108,13 +107,13 @@
 }
 .lefta {
     position: relative;
-    background-image: url("lefta.png");
+    background-image: url("rowtwo/lefta.png");
     width: 110px;
     height: 210px;
 }
 .righta {
     position: relative;
-    background-image: url("righta.png");
+    background-image: url("rowtwo/righta.png");
     width: 92px;
     height: 210px;
     top: -210px;
@@ -129,20 +128,20 @@
 }
 .topb {
     position: relative;
-    background-image: url("topb.png");
+    background-image: url("rowtwo/topb.png");
     width: 135px;
     height: 57px;
 }
 .leftb {
     position: relative;
-    background-image: url("leftb.png");
+    background-image: url("rowtwo/leftb.png");
     width: 58px;
     height: 153px;
     top: -115px;
 }
 .rightb {
     position: relative;
-    background-image: url("rightb.png");
+    background-image: url("rowtwo/rightb.png");
     width: 39px;
     height: 153px;
     left: 96px;
@@ -150,7 +149,7 @@
 }
 .middleb {
     position: relative;
-    background-image: url("middleb.png");
+    background-image: url("rowtwo/middleb.png");
     width: 39px;
     height: 115px;
     left: 58px;
@@ -165,13 +164,13 @@
 }
 .leftc {
     position: relative;
-    background-image: url("leftb.png");
+    background-image: url("rowtwo/leftb.png");
     width: 58px;
     height: 153px;
 }
 .bottomc {
     position: relative;
-    background-image: url("bottomc.png");
+    background-image: url("rowtwo/bottomc.png");
     width: 135px;
     height: 57px;
     top: -57px;
@@ -185,7 +184,7 @@
 }
 .rightd {
     position: relative;
-    background-image: url("rightd.png");
+    background-image: url("rowtwo/rightd.png");
     width: 39px;
     height: 153px;
     top: -193px;
@@ -193,7 +192,7 @@
 }
 .bottomd {
     position: relative;
-    background-image: url("bottomd.png");
+    background-image: url("rowtwo/bottomd.png");
     width: 40px;
     height: 40px;
     top: -40px;
@@ -208,19 +207,19 @@
 }
 .tope {
     position: relative;
-    background-image: url("tope.png");
+    background-image: url("rowtwo/tope.png");
     width: 202px;
     height: 56px;
 }
 .middlee {
     position: relative;
-    background-image: url("middlee.png");
+    background-image: url("rowtwo/middlee.png");
     width: 137px;
     height: 96px;
 }
 .bottome {
     position: relative;
-    background-image: url("bottome.png");
+    background-image: url("rowtwo/bottome.png");
     width: 202px;
     height: 56px;
 }
@@ -233,13 +232,13 @@
 }
 .leftf {
     position: relative;
-    background-image: url("leftf.png");
+    background-image: url("rowtwo/leftf.png");
     width: 57px;
     height: 210px;
 }
 .topf {
     position: relative;
-    background-image: url("topf.png");
+    background-image: url("rowtwo/topf.png");
     width: 77px;
     height: 57px;
     top: -210px;
@@ -247,7 +246,7 @@
 }
 .bottomf {
     position: relative;
-    background-image: url("bottomf.png");
+    background-image: url("rowtwo/bottomf.png");
     width: 77px;
     height: 57px;
     top: -180px;
@@ -262,13 +261,13 @@
 }
 .leftg {
     position: relative;
-    background-image: url("leftg.png");
+    background-image: url("rowtwo/leftg.png");
     width: 57px;
     height: 210px;
 }
 .topg {
     position: relative;
-    background-image: url("topg.png");
+    background-image: url("rowtwo/topg.png");
     width: 77px;
     height: 57px;
     top: -210px;
@@ -276,7 +275,7 @@
 }
 .bottomg {
     position: relative;
-    background-image: url("bottomg.png");
+    background-image: url("rowtwo/bottomg.png");
     width: 77px;
     height: 77px;
     top: -134px;
@@ -291,13 +290,13 @@
 }
 .lefth {
     position: relative;
-    background-image: url("lefth.png");
+    background-image: url("rowtwo/lefth.png");
     width: 57px;
     height: 210px;
 }
 .righth {
     position: relative;
-    background-image: url("righth.png");
+    background-image: url("rowtwo/righth.png");
     width: 57px;
     height: 210px;
     top: -210px;
@@ -305,7 +304,7 @@
 }
 .middleh {
     position: relative;
-    background-image: url("middleh.png");
+    background-image: url("rowtwo/middleh.png");
     width: 39px;
     height: 39px;
     top: -325px;
@@ -334,14 +333,14 @@
 }
 .leftj {
     position: relative;
-    background-image: url("leftj.png");
+    background-image: url("rowtwo/leftj.png");
     width: 57px;
     height: 96px;
     top: 114px;
 }
 .rightj {
     position: relative;
-    background-image: url("rightj.png");
+    background-image: url("rowtwo/rightj.png");
     width: 57px;
     height: 210px;
     left: 76px;
@@ -349,7 +348,7 @@
 }
 .middlej {
     position: relative;
-    background-image: url("middleh.png");
+    background-image: url("rowtwo/middleh.png");
     width: 39px;
     height: 39px;
     top: -135px;
@@ -364,13 +363,13 @@
 }
 .leftk {
     position: relative;
-    background-image: url("leftk.png");
+    background-image: url("rowtwo/leftk.png");
     width: 57px;
     height: 210px;
 }
 .topk {
     position: relative;
-    background-image: url("topk.png");
+    background-image: url("rowtwo/topk.png");
     width: 57px;
     height: 95px;
     top: -210px;
@@ -378,7 +377,7 @@
 }
 .bottomk {
     position: relative;
-    background-image: url("bottomk.png");
+    background-image: url("rowtwo/bottomk.png");
     width: 57px;
     height: 77px;
     top: -173px;
@@ -386,7 +385,7 @@
 }
 .middlek {
     position: relative;
-    background-image: url("middlek.png");
+    background-image: url("rowtwo/middlek.png");
     width: 58px;
     height: 39px;
     top: -287px;
@@ -401,13 +400,13 @@
 }
 .leftl {
     position: relative;
-    background-image: url("leftl.png");
+    background-image: url("rowtwo/leftl.png");
     width: 57px;
     height: 210px;
 }
 .bottoml {
     position: relative;
-    background-image: url("bottoml.png");
+    background-image: url("rowtwo/bottoml.png");
     width: 78px;
     height: 39px;
     top: -45px;
@@ -419,17 +418,16 @@
     position: absolute;
     top: 80px;
     left: 3850px;
-    outline: solid blue 1px;
 }
 .leftm {
     position: relative;
-    background-image: url("leftm.png");
+    background-image: url("rowtwo/leftm.png");
     width: 57px;
     height: 210px;
 }
 .rightm {
     position: relative;
-    background-image: url("rightm.png");
+    background-image: url("rowtwo/rightm.png");
     width: 57px;
     height: 210px;
     left: 76px;
@@ -437,11 +435,71 @@
 }
 .middlem {
     position: relative;
-    background-image: url("middlem.png");
+    background-image: url("rowtwo/middlem.png");
     width: 19px;
     height: 95px;
     top: -420px;
     left: 57px;
+}
+.n {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    outline: solid 1px blue;
+}
+.leftn {
+    position: relative;
+    background-image: url("rowthree/leftn.png");
+    width: 57px;
+    height: 210px;
+}
+.rightn {
+    position: relative;
+    background-image: url("rowthree/rightn.png");
+    width: 57px;
+    height: 210px;
+    left: 76px;
+    top: -210px;
+}
+.middlen {
+    position: relative;
+    background-image: url("rowthree/middlen.png");
+    width: 20px;
+    height: 115px;
+    top: -401px;
+    left: 57px;
+}
+.o {
+    width: 202px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    outline: solid 1px blue;
+}
+.lefto {
+    position: relative;
+    background-image: url("rowthree/lefto.png");
+    width: 110px;
+    height: 210px;
+}
+.righto {
+    position: relative;
+    background-image: url("rowthree/righto.png");
+    width: 92px;
+    height: 210px;
+    left: 110px;
+    top: -210px;
+}
+.p {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 780px;
+    outline: solid 1px blue;
 }
 
 .row {
@@ -449,12 +507,15 @@
     overflow: scroll;
     height: 300px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 .inner-row {
-    width: 9000px;
+    width: 4000px;
+    height: 210px;
 }
 .row2 {
     top: -140px;
-    z-index: 1;
+}
+.row3 {
+    top: -250px;
 }
