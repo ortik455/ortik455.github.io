@@ -77,9 +77,61 @@
     height: 210px;
     position: absolute;
     top: 60px;
-    left: 380px;
+    left: 680px;
+}
+.top2 {
+    position: relative;
+    background-image: url("rowone/top2.png");
+    width: 135px;
+    height: 70px;
+}
+.middle2 {
+    position: relative;
+    background-image: url("rowone/middle2.png");
+    width: 135px;
+    height: 70px;
+}
+.bottom2 {
+    position: relative;
+    background-image: url("rowone/bottom2.png");
+    width: 135px;
+    height: 70px;
+}
+.three {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 980px;
+}
+.top3 {
+    position: relative;
+    background-image: url("rowone/top3.png");
+    width: 135px;
+    height: 57px;
+}
+.middle3 {
+    position: relative;
+    background-image: url("rowone/middle3.png");
+    width: 78px;
+    height: 96px;
+    left: 57px;
+}
+.bottom3 {
+    position: relative;
+    background-image: url("rowone/bottom3.png");
+    width: 135px;
+    height: 57px;
+}
+.four {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 1280px;
     outline: solid red 1px;
 }
+
 .rightside2 {
     position: relative;
 }
