@@ -858,8 +858,9 @@
 }
 
 .row {
-    width: 100%;
-    overflow: scroll;
+    width: 95%;
+    overflow-y: hidden;
+    overflow-x: scroll;
     height: 300px;
     position: relative;
     z-index: 3;
@@ -874,3 +875,4 @@
 .row3 {
     top: -270px;
 }
+
