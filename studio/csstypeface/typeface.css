@@ -447,7 +447,6 @@
     position: absolute;
     top: 120px;
     left: 20px;
-    outline: solid 1px blue;
 }
 .leftn {
     position: relative;
@@ -477,7 +476,6 @@
     position: absolute;
     top: 120px;
     left: 400px;
-    outline: solid 1px blue;
 }
 .lefto {
     position: relative;
@@ -499,7 +497,6 @@
     position: absolute;
     top: 120px;
     left: 780px;
-    outline: solid 1px blue;
 }
 .leftp {
     position: relative;
@@ -531,6 +528,231 @@
     left: 96px;
     top: -248px;
 }
+.q {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+}
+.leftq {
+    position: relative;
+    background-image: url("rowthree/leftq.png");
+    width: 57px;
+    height: 200px;
+}
+.rightq {
+    position: relative;
+    background-image: url("rowthree/rightq.png");
+    width: 39px;
+    height: 210px;
+    top: -200px;
+    left: 96px;
+}
+.topq {
+    position: relative;
+    background-image: url("rowthree/topq.png");
+    width: 39px;
+    height: 56px;
+    top: -410px;
+    left: 57px;
+}
+.bottomq {
+    position: relative;
+    background-image: url("rowthree/bottomq.png");
+    width: 39px;
+    height: 39px;
+    top: -305px;
+    left: 57px;
+}
+.r {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 1380px;
+}
+.rightr {
+    position: relative;
+    background-image: url("rowthree/rightr.png");
+    width: 39px;
+    height: 96px;
+    top: -210px;
+    left: 96px;
+}
+.s {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 1680px;
+}
+.tops {
+    position: relative;
+    background-image: url("rowthree/tops.png");
+    width: 135px;
+    height: 76px;
+}
+.bottoms {
+    position: relative;
+    background-image: url("rowthree/bottoms.png");
+    width: 135px;
+    height: 58px;
+}
+.middles {
+    position: relative;
+    background-image: url("rowthree/middles.png");
+    width: 135px;
+    height: 76px;
+}
+.t {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 1980px;
+}
+.topt {
+    position: relative;
+    background-image: url("rowthree/topt.png");
+    width: 135px;
+    height: 55px;
+    top: -210px;
+}
+.u {
+    width: 202px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 2280px;
+}
+.leftu {
+    position: relative;
+    background-image: url("rowthree/leftu.png");
+    width: 66px;
+    height: 210px;
+}
+.middleu {
+    position: relative;
+    background-image: url("rowthree/middleu.png");
+    width: 69px;
+    height: 39px;
+    top: -39px;
+    left: 66px;
+}
+.rightu {
+    position: relative;
+    background-image: url("rowthree/rightu.png");
+    width: 66px;
+    height: 210px;
+    top: -249px;
+    left: 135px;
+}
+.v {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 2580px;
+}
+.leftv {
+    position: relative;
+    background-image: url("rowthree/leftv.png");
+    width: 57px;
+    height: 210px;
+}
+.middlev {
+    position: relative;
+    background-image: url("rowthree/middlev.png");
+    width: 20px;
+    height: 58px;
+    left: 57px;
+    top: -58px;
+}
+.rightv {
+    position: relative;
+    background-image: url("rowthree/rightv.png");
+    width: 57px;
+    height: 210px;
+    left: 77px;
+    top: -268px;
+}
+.w {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 2880px;
+    outline: solid 1px blue;
+}
+.leftw {
+    position: relative;
+    background-image: url("rowthree/leftw.png");
+    width: 57px;
+    height: 210px;
+}
+.middlew {
+    position: relative;
+    background-image: url("rowthree/middlew.png");
+    width: 20px;
+    height: 58px;
+    left: 57px;
+    top: -58px;
+}
+.rightw {
+    position: relative;
+    background-image: url("rowthree/rightw.png");
+    width: 57px;
+    height: 210px;
+    left: 77px;
+    top: -268px;
+}
+.x {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 3180px;
+    outline: solid 1px blue;
+}
+.topleftx {
+    position: relative;
+    background-image: url("rowthree/topleftx.png");
+    width: 57px;
+    height: 95px;
+}
+.bottomleftx {
+    position: relative;
+    background-image: url("rowthree/bottomleftx.png");
+    width: 57px;
+    height: 95px;
+    top: 19px;
+}
+.middlex {
+    position: relative;
+    background-image: url("rowthree/middlex.png");
+    width: 77px;
+    height: 38px;
+    left: 37px;
+    top: -97px;
+}
+.toprightx {
+    position: relative;
+    background-image: url("rowthree/toprightx.png");
+    width: 57px;
+    height: 95px;
+    left: 77px;
+    top: -228px;
+}
+.bottomrightx {
+    position: relative;
+    background-image: url("rowthree/bottomrightx.png");
+    width: 57px;
+    height: 95px;
+    left: 77px;
+    top: -207px;
+}
+
 
 .row {
     width: 100%;
