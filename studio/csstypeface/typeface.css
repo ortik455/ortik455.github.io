@@ -501,6 +501,36 @@
     left: 780px;
     outline: solid 1px blue;
 }
+.leftp {
+    position: relative;
+    background-image: url("rowthree/leftp.png");
+    width: 57px;
+    height: 210px;
+}
+.topp {
+    position: relative;
+    background-image: url("rowthree/topp.png");
+    width: 78px;
+    height: 57px;
+    left: 57px;
+    top: -210px;
+}
+.bottomp {
+    position: relative;
+    background-image: url("rowthree/bottomp.png");
+    width: 78px;
+    height: 38px;
+    left: 57px;
+    top: -191px;
+}
+.middlep {
+    position: relative;
+    background-image: url("rowthree/middlep.png");
+    width: 39px;
+    height: 19px;
+    left: 96px;
+    top: -248px;
+}
 
 .row {
     width: 100%;
@@ -517,5 +547,5 @@
     top: -140px;
 }
 .row3 {
-    top: -250px;
+    top: -270px;
 }
