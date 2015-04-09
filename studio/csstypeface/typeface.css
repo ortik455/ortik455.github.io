@@ -496,7 +496,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 20px;
 }
 .leftn {
@@ -525,7 +524,6 @@
     width: 202px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 400px;
 }
 .lefto {
@@ -546,7 +544,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 780px;
 }
 .leftp {
@@ -583,7 +580,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 1080px;
 }
 .leftq {
@@ -620,7 +616,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 1380px;
 }
 .rightr {
@@ -635,7 +630,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 1680px;
 }
 .tops {
@@ -660,7 +654,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 1980px;
 }
 .topt {
@@ -674,7 +667,6 @@
     width: 202px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 2280px;
 }
 .leftu {
@@ -703,7 +695,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 2580px;
 }
 .leftv {
@@ -732,7 +723,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 2880px;
 }
 .leftw {
@@ -761,7 +751,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 3180px;
 }
 .bottomrightx {
@@ -805,7 +794,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 3480px;
 }
 .lefty {
@@ -834,7 +822,6 @@
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 120px;
     left: 3780px;
 }
 .topz {
@@ -873,6 +860,6 @@
     top: -140px;
 }
 .row3 {
-    top: -270px;
+    top: -180px;
 }
 
