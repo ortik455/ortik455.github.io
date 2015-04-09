@@ -5,14 +5,17 @@ html {
 	background-color: #FFFFFF;
 	width: 500px;
 	height: 600px;
-	padding-top: 10px;
+	padding-top: 20px;
 	position: absolute;
-	left: 8%;
+	top: 10px;
+	left: 140px;
 }
 div {
 	display: block;
 }
 body {
+	background-image: url("../notes/leftrock.png");
+	background-repeat: no-repeat;
 	font-family: 'Neuton', serif;
     background-color: #ffffff;
     font-size: 18px;

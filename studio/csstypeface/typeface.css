@@ -13,7 +13,6 @@
     position: absolute;
     top: 60px;
     left: 40px;
-    outline: solid red 1px;
 }
 .rightside {
     position: relative;
@@ -53,7 +52,6 @@
     position: absolute;
     top: 60px;
     left: 380px;
-    outline: solid red 1px;
 }
 .top1 {
     position: relative;
@@ -683,7 +681,6 @@
     position: absolute;
     top: 120px;
     left: 2880px;
-    outline: solid 1px blue;
 }
 .leftw {
     position: relative;
@@ -713,7 +710,14 @@
     position: absolute;
     top: 120px;
     left: 3180px;
-    outline: solid 1px blue;
+}
+.bottomrightx {
+    position: relative;
+    background-image: url("rowthree/bottomrightx.png");
+    width: 57px;
+    height: 95px;
+    top: -208px;
+    left: 77px;
 }
 .topleftx {
     position: relative;
@@ -744,15 +748,61 @@
     left: 77px;
     top: -228px;
 }
-.bottomrightx {
-    position: relative;
-    background-image: url("rowthree/bottomrightx.png");
-    width: 57px;
-    height: 95px;
-    left: 77px;
-    top: -207px;
+.y {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 3480px;
 }
-
+.lefty {
+    position: relative;
+    background-image: url("rowthree/lefty.png");
+    width: 57px;
+    height: 132px; 
+}
+.middley {
+    position: relative;
+    background-image: url("rowthree/middley.png");
+    width: 57px;
+    height: 115px;
+    top: -38px;
+    left: 42px;
+}
+.righty {
+    position: relative;
+    background-image: url("rowthree/righty.png");
+    width: 57px;
+    height: 132px; 
+    top: -247px;
+    left: 78px;
+}
+.z {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 120px;
+    left: 3780px;
+}
+.topz {
+    position: relative;
+    background-image: url("rowthree/topz.png");
+    width: 135px;
+    height: 76px;
+}
+.middlez {
+    position: relative;
+    background-image: url("rowthree/middlez.png");
+    width: 135px;
+    height: 76px;
+    
+}
+.bottomz {
+    position: relative;
+    background-image: url("rowthree/bottomz.png");
+    width: 135px;
+    height: 58px;
+}
 
 .row {
     width: 100%;
