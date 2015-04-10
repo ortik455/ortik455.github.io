@@ -10,6 +10,9 @@
 body {
     height: 640px;
 }
+.all {
+    margin-top: 80px;
+}
 .zero {
     width: 135px;
     height: 210px;
