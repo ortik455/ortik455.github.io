@@ -10,7 +10,6 @@
 body {
     height: 640px;
 }
-
 .zero {
     width: 135px;
     height: 210px;
@@ -407,12 +406,28 @@ body {
     left: 58px;
     top: 38px;
 }
+.csculpture {
+    width: 354px;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    left: 680px;
+    background-image: url("sculptures/csculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .c {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 730px;
+}
+.c:hover .csculpture {
+    display: block;
 }
 .leftc {
     position: relative;
@@ -427,12 +442,28 @@ body {
     height: 57px;
     top: -57px;
 }
+.dsculpture {
+    width: 368px;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    left: 680px;
+    background-image: url("sculptures/dsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .d {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 1050px;
+}
+.d:hover .dsculpture {
+    display: block;
 }
 .rightd {
     position: relative;
@@ -450,12 +481,28 @@ body {
     top: -40px;
     left: 58px;
 }
+.esculpture {
+    width: 444px;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    left: 680px;
+    background-image: url("sculptures/esculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .e {
     width: 202px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 1350px;
+}
+.e:hover .esculpture {
+    display: block;
 }
 .tope {
     position: relative;
@@ -475,12 +522,28 @@ body {
     width: 202px;
     height: 56px;
 }
+.fsculpture {
+    width: 800px;
+    height: 390px;
+    position: fixed;
+    top: 220px;
+    left: 480px;
+    background-image: url("sculptures/fsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .f {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 1750px;
+}
+.f:hover .fsculpture {
+    display: block;
 }
 .leftf {
     position: relative;
@@ -504,12 +567,28 @@ body {
     top: -180px;
     left: 57px;
 }
+.gsculpture {
+    width: 800px;
+    height: 561px;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    background-image: url("sculptures/gsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .g {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 2050px;
+}
+.g:hover .gsculpture {
+    display: block;
 }
 .leftg {
     position: relative;
@@ -533,12 +612,28 @@ body {
     top: -134px;
     left: 57px;
 }
+.hsculpture {
+    width: 399px;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    left: 700px;
+    background-image: url("sculptures/hsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .h {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 2350px;
+}
+.h:hover .hsculpture {
+    display: block;
 }
 .lefth {
     position: relative;
@@ -643,12 +738,28 @@ body {
     top: -287px;
     left: 57px;
 }
+.lsculpture {
+    width: 800px;
+    height: 769px;
+    position: fixed;
+    top: 30px;
+    left: 500px;
+    background-image: url("sculptures/lsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .l {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 3550px;
+}
+.l:hover .lsculpture {
+    display: block;
 }
 .leftl {
     position: relative;
@@ -664,12 +775,28 @@ body {
     top: -45px;
     left: 57px;
 }
+.msculpture {
+    width: 357px;
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    left: 750px;
+    background-image: url("sculptures/msculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .m {
     width: 135px;
     height: 210px;
     position: absolute;
     top: 80px;
     left: 3850px;
+}
+.m:hover .msculpture {
+    display: block;
 }
 .leftm {
     position: relative;
@@ -725,7 +852,7 @@ body {
     width: 202px;
     height: 210px;
     position: absolute;
-    left: 400px;
+    left: 370px;
 }
 .lefto {
     position: relative;
@@ -827,11 +954,27 @@ body {
     top: -210px;
     left: 96px;
 }
+.ssculpture {
+    width: 268px;
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    left: 800px;
+    background-image: url("sculptures/ssculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .s {
     width: 135px;
     height: 210px;
     position: absolute;
     left: 1680px;
+}
+.s:hover .ssculpture {
+    display: block;
 }
 .tops {
     position: relative;
@@ -892,11 +1035,27 @@ body {
     top: -249px;
     left: 135px;
 }
+.vsculpture {
+    width: 397px;
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    left: 700px;
+    background-image: url("sculptures/vsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .v {
     width: 135px;
     height: 210px;
     position: absolute;
     left: 2580px;
+}
+.v:hover .vsculpture {
+    display: block;
 }
 .leftv {
     position: relative;
@@ -920,11 +1079,27 @@ body {
     left: 77px;
     top: -268px;
 }
+.wsculpture {
+    width: 396px;
+    height: 600px;
+    position: fixed;
+    top: 60px;
+    left: 701px;
+    background-image: url("sculptures/wsculpture.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: none;
+    z-index: 1;
+    opacity: .7;
+}
 .w {
     width: 135px;
     height: 210px;
     position: absolute;
     left: 2880px;
+}
+.w:hover .wsculpture {
+    display: block;
 }
 .leftw {
     position: relative;
@@ -1051,16 +1226,22 @@ body {
     overflow-x: scroll;
     height: 300px;
     position: relative;
-    z-index: 3;
 }
 .inner-row {
     width: 5000px;
     height: 210px;
 }
 .row2 {
-    top: -140px;
+    top: -80px;
+    left: 30px;
 }
 .row3 {
-    top: -180px;
+    top: -300px;
+    left: 90px;
 }
-
+figcaption {
+    font-family: arial;
+    text-align: center;
+    color: #9A9A9A;
+    opacity: 1;
+}
