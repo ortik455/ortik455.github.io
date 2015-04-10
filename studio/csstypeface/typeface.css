@@ -335,7 +335,19 @@ body {
     height: 57px;
     top: 70px;
 }
-
+.question{
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 4280px;
+}
+.quest {
+    position: relative;
+    background-image: url("rowone/question.png");
+    width: 135px;
+    height: 210px;
+}
 .rightside2 {
     position: relative;
 }
@@ -1224,7 +1236,7 @@ body {
 }
 
 .row {
-    width: 90%;
+    width: 89%;
     overflow-y: hidden;
     overflow-x: scroll;
     height: 300px;
