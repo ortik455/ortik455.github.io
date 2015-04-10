@@ -7,6 +7,9 @@
 ::-webkit-scrollbar { 
     display: none; 
 }
+body {
+    height: 640px;
+}
 
 .zero {
     width: 135px;
@@ -130,8 +133,149 @@
     position: absolute;
     top: 60px;
     left: 1280px;
-    outline: solid red 1px;
 }
+.left4 {
+    position: relative;
+    background-image: url("rowone/left4.png");
+    width: 57px;
+    height: 133px;
+}
+.middle4 {
+    position: relative;
+    background-image: url("rowone/middle4.png");
+    width: 22px;
+    height: 38px;
+    left: 57px;
+    top: -38px;
+}
+.right4 {
+    position: relative;
+    background-image: url("rowone/right4.png");
+    width: 57px;
+    height: 210px;
+    left: 77px;
+    top: -171px;
+}
+.five {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 1580px;
+}
+.top5 {
+    position: relative;
+    background-image: url("rowone/top5.png");
+    width: 135px;
+    height: 70px;
+}
+.middle5 {
+    position: relative;
+    background-image: url("rowone/middle5.png");
+    width: 135px;
+    height: 70px;
+}
+.bottom5 {
+    position: relative;
+    background-image: url("rowone/bottom5.png");
+    width: 135px;
+    height: 70px;
+}
+.six {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 1880px;
+}
+.top6 {
+    position: relative;
+    background-image: url("rowone/top6.png");
+    width: 135px;
+    height: 57px;
+}
+.left6 {
+    position: relative;
+    background-image: url("rowone/left6.png");
+    width: 57px;
+    height: 153px;
+}
+.right6 {
+    position: relative;
+    background-image: url("rowone/right6.png");
+    width: 78px;
+    height: 115px;
+    left: 57px;
+    top: -115px;
+}
+.seven {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 2180px;
+}
+.top7 {
+    position: relative;
+    background-image: url("rowone/top7.png");
+    width: 78px;
+    height: 57px;
+}
+.right7 {
+    position: relative;
+    background-image: url("rowone/right7.png");
+    width: 57px;
+    height: 210px;
+    left: 78px;
+    top: -57px;
+}
+.eight {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 2480px;
+}
+.top8 {
+    position: relative;
+    background-image: url("rowone/top8.png");
+    width: 135px;
+    height: 95px;
+}
+.middle8 {
+    position: relative;
+    background-image: url("rowone/middle8.png");
+    width: 135px;
+    height: 38px;
+}
+.bottom8 {
+    position: relative;
+    background-image: url("rowone/bottom8.png");
+    width:135px;
+    height: 77px;
+}
+.nine {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 2780px;
+}
+.left9 {
+    position: relative;
+    background-image: url("rowone/left9.png");
+    width: 78px;
+    height: 133px;
+}
+.right9 {
+    position: relative;
+    background-image: url("rowone/right9.png");
+    width: 57px;
+    height: 210px;
+    left: 78px;
+    top: -133px;
+}
+
 
 .rightside2 {
     position: relative;
@@ -853,7 +997,7 @@
     z-index: 3;
 }
 .inner-row {
-    width: 4000px;
+    width: 5000px;
     height: 210px;
 }
 .row2 {
