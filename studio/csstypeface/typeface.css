@@ -275,7 +275,64 @@ body {
     left: 78px;
     top: -133px;
 }
-
+.exclamation {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 3080px;
+}
+.excl {
+    position: relative;
+    background-image: url("rowone/exclamation.png");
+    width: 57px;
+    height: 210px;
+    left: 39px;
+}
+.period {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 3380px;
+}
+.per {
+    position: relative;
+    background-image: url("rowone/period.png");
+    width: 57px;
+    height: 57px;
+    left: 39px;
+    top: 153px;
+}
+.ndash {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 3680px;
+}
+.nd {
+    position: relative;
+    background-image: url("rowone/ndash.png");
+    width: 96px;
+    height: 57px;
+    top: 70px;
+    left: 19px;
+}
+.mdash {
+    width: 135px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 3980px;
+}
+.md {
+    position: relative;
+    background-image: url("rowone/mdash.png");
+    width: 135px;
+    height: 57px;
+    top: 70px;
+}
 
 .rightside2 {
     position: relative;
@@ -640,7 +697,7 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    left: 20px;
+    left: 60px;
 }
 .leftn {
     position: relative;
@@ -989,7 +1046,7 @@ body {
 }
 
 .row {
-    width: 95%;
+    width: 90%;
     overflow-y: hidden;
     overflow-x: scroll;
     height: 300px;
