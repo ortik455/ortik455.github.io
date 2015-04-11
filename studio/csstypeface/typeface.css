@@ -10,14 +10,21 @@
 body {
     height: 640px;
 }
-.all {
-    margin-top: 80px;
+.black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: none;
+    z-index: 1;
+    opacity: .5;
 }
 .zero {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 40px;
 }
 .rightside {
@@ -56,7 +63,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 380px;
 }
 .top1 {
@@ -82,7 +88,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 680px;
 }
 .top2 {
@@ -107,7 +112,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 980px;
 }
 .top3 {
@@ -133,7 +137,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 1280px;
 }
 .left4 {
@@ -162,7 +165,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 1580px;
 }
 .top5 {
@@ -187,7 +189,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 1880px;
 }
 .top6 {
@@ -214,7 +215,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 2180px;
 }
 .top7 {
@@ -235,7 +235,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 2480px;
 }
 .top8 {
@@ -260,7 +259,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 2780px;
 }
 .left9 {
@@ -281,7 +279,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 3080px;
 }
 .excl {
@@ -295,7 +292,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 3380px;
 }
 .per {
@@ -310,7 +306,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 3680px;
 }
 .nd {
@@ -325,7 +320,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 3980px;
 }
 .md {
@@ -339,7 +333,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 60px;
     left: 4280px;
 }
 .quest {
@@ -368,7 +361,6 @@ body {
     width: 202px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 20px;
 }
 .lefta {
@@ -389,7 +381,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 400px;
 }
 .topb {
@@ -427,23 +418,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/csculpture.png");
+    display: none;
     background-repeat: no-repeat;
     background-position: center center; 
-    display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .c {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 730px;
 }
-.c:hover .csculpture {
-    display: block;
-}
+
 .leftc {
     position: relative;
     background-image: url("rowtwo/leftb.png");
@@ -463,23 +450,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/dsculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .d {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 1050px;
 }
-.d:hover .dsculpture {
-    display: block;
-}
+
 .rightd {
     position: relative;
     background-image: url("rowtwo/rightd.png");
@@ -502,23 +485,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/esculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .e {
     width: 202px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 1350px;
 }
-.e:hover .esculpture {
-    display: block;
-}
+
 .tope {
     position: relative;
     background-image: url("rowtwo/tope.png");
@@ -543,23 +522,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/fsculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .f {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 1750px;
 }
-.f:hover .fsculpture {
-    display: block;
-}
+
 .leftf {
     position: relative;
     background-image: url("rowtwo/leftf.png");
@@ -588,23 +563,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/gsculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .g {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 2050px;
 }
-.g:hover .gsculpture {
-    display: block;
-}
+
 .leftg {
     position: relative;
     background-image: url("rowtwo/leftg.png");
@@ -633,22 +604,17 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/hsculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .h {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 2350px;
-}
-.h:hover .hsculpture {
-    display: block;
 }
 .lefth {
     position: relative;
@@ -676,7 +642,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 2650px;
 }
 .onlyi {
@@ -690,7 +655,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 2950px;
 }
 .leftj {
@@ -720,7 +684,6 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 3250px;
 }
 .leftk {
@@ -759,23 +722,19 @@ body {
     position: fixed;
     top: 10px;
     left: 100px;
-    background-image: url("sculptures/lsculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .l {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 3550px;
 }
-.l:hover .lsculpture {
-    display: block;
-}
+
 .leftl {
     position: relative;
     background-image: url("rowtwo/leftl.png");
@@ -787,7 +746,7 @@ body {
     background-image: url("rowtwo/bottoml.png");
     width: 78px;
     height: 39px;
-    top: -45px;
+    top: -39px;
     left: 57px;
 }
 .msculpture {
@@ -796,23 +755,19 @@ body {
     position: fixed;
     top: 50px;
     left: 100px;
-    background-image: url("sculptures/msculpture.png");
     background-repeat: no-repeat;
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .m {
     width: 135px;
     height: 210px;
     position: absolute;
-    top: 80px;
     left: 3850px;
 }
-.m:hover .msculpture {
-    display: block;
-}
+
 .leftm {
     position: relative;
     background-image: url("rowtwo/leftm.png");
@@ -887,7 +842,7 @@ body {
     width: 135px;
     height: 210px;
     position: absolute;
-    left: 780px;
+    left: 740px;
 }
 .leftp {
     position: relative;
@@ -980,7 +935,7 @@ body {
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .s {
     width: 135px;
@@ -1061,7 +1016,7 @@ body {
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .v {
     width: 135px;
@@ -1105,7 +1060,7 @@ body {
     background-position: center center; 
     display: none;
     z-index: 1;
-    opacity: .7;
+    opacity: .8;
 }
 .w {
     width: 135px;
@@ -1239,24 +1194,26 @@ body {
     width: 89%;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 300px;
+    height: 210px;
     position: relative;
+    margin-top: 40px;
 }
 .inner-row {
     width: 5000px;
     height: 210px;
 }
 .row2 {
-    top: -80px;
     left: 30px;
+    top: -90px;
 }
 .row3 {
-    top: -300px;
     left: 90px;
+    top: -190px;
 }
 figcaption {
+    padding-top: 6px;
     font-family: arial;
     text-align: center;
-    color: #9A9A9A;
+    color: #fff;
     opacity: 1;
 }
