@@ -16,6 +16,7 @@ body {
   height: 70%;
   display: block;
   padding: 20px;
+  -webkit-filter: grayscale(1);
 }
 
 .quote-holder {
