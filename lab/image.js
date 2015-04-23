@@ -10,7 +10,8 @@ var pics =
 "http://connectnigeria.com/articles/wp-content/uploads/2012/09/Dont-Fight-with-Stress.jpg",
 "http://thumbs.media.smithsonianmag.com//filer/89/c3/89c31752-f362-4b98-bca9-a53c4e6b07fa/too-much-homework-520.jpg__800x600_q85_crop.jpg",
 "http://www.brainbalancecenters.com/wp-content/uploads/2015/04/Too-Much-Homework.jpeg",
-"http://lasernafreelancer.com/wp-content/uploads/2015/03/stress.jpg"];
+"http://lasernafreelancer.com/wp-content/uploads/2015/03/stress.jpg",
+"https://pittbradford.files.wordpress.com/2011/12/stressful-people-fordec5post.jpg"];
 
 var quotes =
 ["In order to get to the top we have to experience all of the bottom.",
