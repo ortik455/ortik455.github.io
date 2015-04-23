@@ -1,6 +1,7 @@
 body {
     width:1000;
     height:700;
+    background-image: url('paper.jpg');
 }
 .photo-holder {
   width: auto;
