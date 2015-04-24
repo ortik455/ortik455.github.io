@@ -45,4 +45,4 @@ $(".photo-holder").html('<img src="' + pics[Math.floor(Math.random()*pics.length
   
 });
 
-
+/*.append for the images. */
