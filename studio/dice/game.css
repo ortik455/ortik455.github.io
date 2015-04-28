@@ -5,11 +5,10 @@ body {
 .menu-wrapper {
     position: fixed;
     background-color: #fff;
-    outline: 1px solid red;
     top: 50px;
     left: 80px;
     width:100px;
-    height: 300px;
+    height: 280px;
 }
 .select-button{
     position: absolute;
@@ -24,12 +23,54 @@ body {
     line-height: 70px;
     text-align: center;
 }
-.photo-wrapper {
+.t-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left: 25px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 55px;
+    text-align: center;
+}
+.f-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 160px;
+    left: 25px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 55px;
+    text-align: center;
+}
+.r-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 230px;
+    left: 25px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 55px;
+    text-align: center;
+}
+.image-wrapper {
     position: fixed;
     background-color: #fff;
     outline: 1px solid green;
-    top: 50%;
-    left: 50%;
+    width: 550px;
+    height: 600px;
+    top: 50px;
+    left: 440px;
+    z-index: 10;
 }
 .tile-wrapper {
     position: fixed;
@@ -47,7 +88,11 @@ body {
     padding-right: 1px;
     padding-bottom: 1px;
     background-color: #fff;
-    outline: 1px solid purple;
+    outline: 1px solid lime;
     width: 150px;
     height: 150px;
+}
+.select-button:hover, .t-button:hover, .f-button:hover, .r-button:hover {
+    color: #F50000;
+    cursor: pointer
 }
