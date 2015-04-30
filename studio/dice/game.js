@@ -1,6 +1,6 @@
 var photos = 
 ["http://graphics8.nytimes.com/images/2008/07/01/science/0709-lede-IRAN.jpg", 
-"http://services.tomfolio.com/ajfrank/images/8159.jpg",
+"http://www.coverbrowser.com/image/national-geographic/1034-3.jpg",
 "http://img.timeinc.net/time/magazine/archive/covers/1994/1101940627_400.jpg",
 "http://www.sree.net/teaching/lateditors_files/7235256.jpg",
 "http://images.china.cn/images1/200802/421701.jpg",

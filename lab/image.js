@@ -41,7 +41,7 @@ $(".button").click(function() {
   
   $(".quote-holder").html(nextquote);
 
-$(".photo-holder").html('<img src="' + pics[Math.floor(Math.random()*pics.length)]+ '">');
+$(".photo-holder").append('<img src="' + pics[Math.floor(Math.random()*pics.length)]+ '">');
   
 });
 
