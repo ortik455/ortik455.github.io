@@ -341,3 +341,13 @@ a:visited {
 .haiti21 { background: url('tile_images/haiti21.png') no-repeat; }
 .haiti22 { background: url('tile_images/haiti22.png') no-repeat; }
 .haiti23 { background: url('tile_images/haiti23.png') no-repeat; }
+
+
+.s {
+    border: 3px solid transparent;
+}
+
+.s.current {
+    border-color: yellow;
+}
+
