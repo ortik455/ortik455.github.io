@@ -23,6 +23,24 @@ body {
     line-height: 70px;
     text-align: center;
 }
+a:link {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 100%;
+    left: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 .t-button {
     position: absolute;
     width: 50px;
