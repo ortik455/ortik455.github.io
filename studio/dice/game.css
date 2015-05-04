@@ -85,8 +85,8 @@ a:visited {
     background-color: #fff;
     top: 50px;
     left: 280px;
-    width: 932px;
-    height: 620px;
+    width: 944px;
+    height: 628px;
 }
 .s {
 	display: inline-block;
@@ -344,10 +344,10 @@ a:visited {
 
 
 .s {
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 
 .s.current {
-    border-color: yellow;
+    border-color: red;
 }
 
