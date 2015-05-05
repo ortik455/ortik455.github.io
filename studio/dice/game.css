@@ -23,7 +23,7 @@ body {
     line-height: 70px;
     text-align: center;
 }
-a:link {
+.start {
     position: absolute;
     width: 70px;
     height: 70px;
