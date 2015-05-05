@@ -9,6 +9,7 @@ body {
     left: 80px;
     width:100px;
     height: 280px;
+    font-family: 'Roboto', sans-serif;
 }
 .select-button{
     position: absolute;
@@ -90,18 +91,27 @@ a:visited {
 }
 .s {
 	display: inline-block;
-	border: 1px solid #fff;
     width: 150px;
     height: 150px;
 }
 .s.active {
-	border: 1px solid #00FFFF;
+	border: 2px solid #FFFF00;
 }
 .select-button:hover, .t-button:hover, .f-button:hover, .r-button:hover {
-    color: #F50000;
     cursor: pointer
 }
-
+.t-button:hover {
+    opacity: .5;
+    transition: 0.8s;
+}
+.f-button:hover {
+    transform: rotateY(180deg);
+    transition: 0.9s;
+}
+.r-button:hover {
+    transform: rotate(90deg);
+    transition: 0.9s;
+}
 .missile1 { background: url('tile_images/missile1.png') no-repeat; } 
 .missile2 { background: url('tile_images/missile2.png') no-repeat; }
 .missile3 { background: url('tile_images/missile3.png') no-repeat; }
@@ -343,11 +353,5 @@ a:visited {
 .haiti23 { background: url('tile_images/haiti23.png') no-repeat; }
 
 
-.s {
-    border: 2px solid transparent;
-}
-
-.s.current {
-    border-color: red;
-}
-
+.s.current {border: 2px solid #ffff00;}
+.s:click {z-index: 600;}

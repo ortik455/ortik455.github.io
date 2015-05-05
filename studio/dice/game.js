@@ -9,7 +9,7 @@ $('.select-button').click(function() {
 
 
 $( ".s:nth-child(even)" ).draggable({
-  axis: "y",
+ // axis: "y",
   containment: '.tile-wrapper',
   start: function() {
     $('.s').removeClass('current');
@@ -22,7 +22,7 @@ $( ".s:nth-child(even)" ).draggable({
 });
 
 $( ".s:nth-child(odd)" ).draggable({
-  axis: "x",
+  //axis: "x",
   containment: '.tile-wrapper',
   start: function() {
     $('.s').removeClass('current');
