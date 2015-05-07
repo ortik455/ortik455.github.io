@@ -58,10 +58,24 @@ $('.t-button').click(function(){
 
 $('.f-button').click(function() {
     var $tile = $('.s.current');
+    if ($tile.data("rotated") == "true") {
+    $tile.css({ "-webkit-transform" : "rotateY(0deg)" });
+       $('.s.current').data("rotated","false");
+
+    } else {
     $tile.css({ "-webkit-transform" : "rotateY(+180deg)" });
+    $tile.data("rotated","true");
+    
+    }
 });
 
 $('.r-button').click(function() {
     var $tile = $('.s.current');
     $tile.css({ "-webkit-transform" : "rotate(+90deg)" });
+});
+
+$('.finish-button').click(function(){
+    $('.image-ball').css('display', 'block');
+    $('.finish-button').text('start over');
+    $('.finish-button').css('font-size', '11px');
 });
