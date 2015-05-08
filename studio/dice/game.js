@@ -90,41 +90,35 @@ $('.finish-button').click(function(event) {
 var thover=true;
 $(".t-button").mouseenter(function(){
 	if (thover==true){
-		$(".hover-t").css("display", "block");
-		$(".hover-t").fadeIn(500);
+		$(".hover-t").fadeIn(200);
 	} 
 });
 $(".t-button").mouseleave(function(){
 	if (thover==true){
-		$(".hover-t").css("display", "none");
-		$(".hover-t").fadeOut(500);
+		$(".hover-t").fadeOut(400);
 	} 
 });
 
 var fhover=true;
 $(".f-button").mouseenter(function(){
 	if (fhover==true){
-		$(".hover-f").css("display", "block");
-		$(".hover-f").fadeIn(500);
+		$(".hover-f").fadeIn(200);
 	} 
 });
 $(".f-button").mouseleave(function(){
 	if (fhover==true){
-		$(".hover-f").css("display", "none");
-		$(".hover-f").fadeOut(500);
+		$(".hover-f").fadeOut(400);
 	} 
 });
 
 var rhover=true;
 $(".r-button").mouseenter(function(){
 	if (rhover==true){
-		$(".hover-r").css("display", "block");
-		$(".hover-r").fadeIn(500);
+		$(".hover-r").fadeIn(200);
 	} 
 });
 $(".r-button").mouseleave(function(){
 	if (rhover==true){
-		$(".hover-r").css("display", "none");
-		$(".hover-r").fadeOut(500);
+		$(".hover-r").fadeOut(400);
 	} 
 });
