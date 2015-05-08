@@ -2,14 +2,58 @@ body {
     height: 700px;
     width: 1300px;
 }
+
 .menu-wrapper {
     position: fixed;
     background-color: #fff;
     top: 50px;
-    left: 80px;
-    width:100px;
+    left: 100px;
+    width: 80px;
     height: 280px;
     font-family: 'Roboto', sans-serif;
+}
+.hover-text {
+    position: fixed;
+    background-color: #fff;
+    top: 140px;
+    left: 40px;
+    width: 60px;
+    height: 190px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+.hover-t {
+    display: none;
+    position: fixed;
+    width:60px;
+    height: 15px;
+    top: 158px;
+    left: 40px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.hover-f {
+    display: none;
+    position: fixed;
+    width:60px;
+    height: 15px;
+    top: 227px;
+    left: 40px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.hover-r {
+    display: none;
+    position: fixed;
+    width:60px;
+    height: 15px;
+    top: 297px;
+    left: 40px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 .select-button, .finish-button {
     position: absolute;
@@ -50,10 +94,6 @@ a:visited {
     left: 25px;
     background-color: #000;
     color: #fff;
-    letter-spacing: 2px;
-    font-size: 22px;
-    line-height: 55px;
-    text-align: center;
 }
 .f-button {
     position: absolute;

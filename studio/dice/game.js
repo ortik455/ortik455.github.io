@@ -84,6 +84,47 @@ $('.finish-button').click(function(event) {
     var div_to_reveal = $(this).data('reveal');
     
     $(div_to_reveal).css('display', 'block');
-    $('.finish-button').css('font-size', '11px');
     $('.finish-button').addClass('start-over');
+});
+
+var thover=true;
+$(".t-button").mouseenter(function(){
+	if (thover==true){
+		$(".hover-t").css("display", "block");
+		$(".hover-t").fadeIn(500);
+	} 
+});
+$(".t-button").mouseleave(function(){
+	if (thover==true){
+		$(".hover-t").css("display", "none");
+		$(".hover-t").fadeOut(500);
+	} 
+});
+
+var fhover=true;
+$(".f-button").mouseenter(function(){
+	if (fhover==true){
+		$(".hover-f").css("display", "block");
+		$(".hover-f").fadeIn(500);
+	} 
+});
+$(".f-button").mouseleave(function(){
+	if (fhover==true){
+		$(".hover-f").css("display", "none");
+		$(".hover-f").fadeOut(500);
+	} 
+});
+
+var rhover=true;
+$(".r-button").mouseenter(function(){
+	if (rhover==true){
+		$(".hover-r").css("display", "block");
+		$(".hover-r").fadeIn(500);
+	} 
+});
+$(".r-button").mouseleave(function(){
+	if (rhover==true){
+		$(".hover-r").css("display", "none");
+		$(".hover-r").fadeOut(500);
+	} 
 });
