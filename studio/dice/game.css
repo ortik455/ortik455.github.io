@@ -88,7 +88,6 @@ a:visited {
     left: 280px;
     width: 944px;
     height: 628px;
-    outline: 1px solid red;
 }
 .s {
 	display: inline-block;
@@ -121,12 +120,110 @@ a:visited {
     left: 580px;
     display: none; 
     background: url('whole_images/ball.png') no-repeat;
-    z-index: 100;
+    z-index: 500;
     outline: solid 50px #fff;
     height: 430px;
     width: 318px;
 }
-
+.image-haiti { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/haiti.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 381px;
+    width: 573px;
+}
+.image-missile { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/missile.png') no-repeat;
+    z-index: 500;
+    outline: solid 50px #fff;
+    height: 328px;
+    width: 511px;
+}
+.image-natgeo { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/natgeo.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 470px;
+    width: 310px;
+}
+.image-oj { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/oj.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 488px;
+    width: 370px;
+}
+.image-pope { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/pope.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 305px;
+    width: 411px;
+}
+.image-smoke { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/smoke.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 325px;
+    width: 487px;
+}
+.image-soldier { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/soldier.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 338px;
+    width: 482px;
+}
+.image-sun { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/sun.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 479px;
+    width: 312px;
+}
+.image-train { 
+    position: fixed;
+    top: 150px;
+    left: 580px;
+    display: none; 
+    background: url('whole_images/train.png') no-repeat;
+    z-index: 501;
+    outline: solid 50px #fff;
+    height: 360px;
+    width: 540px;
+}
 .missile1 { background: url('tile_images/missile1.png') no-repeat; } 
 .missile2 { background: url('tile_images/missile2.png') no-repeat; }
 .missile3 { background: url('tile_images/missile3.png') no-repeat; }

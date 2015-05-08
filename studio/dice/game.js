@@ -1,8 +1,12 @@
 var pages = ["ball.html", "haiti.html", "missile.html", "natgeo.html", "oj.html",
 "pope.html", "smoke.html", "soldier.html", "sun.html", "train.html"]; 
  
+$(document).on('click', '.start-over', function() {
+    var random_num = Math.floor(Math.random() * pages.length);
+    window.location = pages[random_num];
+});
 
-$('.select-button').click(function() {
+$('.select-button, .start-over').click(function() {
     var random_num = Math.floor(Math.random() * pages.length);
     window.location = pages[random_num];
 });
@@ -58,24 +62,28 @@ $('.t-button').click(function(){
 
 $('.f-button').click(function() {
     var $tile = $('.s.current');
-    if ($tile.data("rotated") == "true") {
+    if ($tile.data("flip") == "true") {
     $tile.css({ "-webkit-transform" : "rotateY(0deg)" });
-       $('.s.current').data("rotated","false");
+       $('.s.current').data("flip","false");
 
     } else {
     $tile.css({ "-webkit-transform" : "rotateY(+180deg)" });
-    $tile.data("rotated","true");
+    $tile.data("flip","true");
     
     }
 });
+
 
 $('.r-button').click(function() {
     var $tile = $('.s.current');
     $tile.css({ "-webkit-transform" : "rotate(+90deg)" });
 });
 
-$('.finish-button').click(function(){
-    $('.image-ball').css('display', 'block');
-    $('.finish-button').text('start over');
+$('.finish-button').click(function(event) {
+    event.preventDefault();
+    var div_to_reveal = $(this).data('reveal');
+    
+    $(div_to_reveal).css('display', 'block');
     $('.finish-button').css('font-size', '11px');
+    $('.finish-button').addClass('start-over');
 });
