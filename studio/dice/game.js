@@ -109,7 +109,7 @@ $('.finish-button').click(function(event) {
     var div_to_reveal = $(this).data('reveal');
     
     $(div_to_reveal).css('display', 'block');
-    $('.finish-button').addClass('start-over').html('Start Over');
+    $('.finish-button').addClass('start-over').html('start over');
     App.clicks += 1;
 });
 
