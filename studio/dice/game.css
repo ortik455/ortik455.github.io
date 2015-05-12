@@ -225,8 +225,8 @@ a:visited {
 }
 .image-smoke { 
     position: fixed;
-    top: 150px;
-    left: 580px;
+    top: 200px;
+    left: 510px;
     display: none; 
     background: url('whole_images/smoke.png') no-repeat;
     z-index: 501;
@@ -236,8 +236,8 @@ a:visited {
 }
 .image-soldier { 
     position: fixed;
-    top: 150px;
-    left: 580px;
+    top: 195px;
+    left: 510px;
     display: none; 
     background: url('whole_images/soldier.png') no-repeat;
     z-index: 501;
@@ -247,8 +247,8 @@ a:visited {
 }
 .image-sun { 
     position: fixed;
-    top: 150px;
-    left: 580px;
+    top: 125px;
+    left: 595px;
     display: none; 
     background: url('whole_images/sun.png') no-repeat;
     z-index: 501;
@@ -258,8 +258,8 @@ a:visited {
 }
 .image-train { 
     position: fixed;
-    top: 150px;
-    left: 580px;
+    top: 180px;
+    left: 480px;
     display: none; 
     background: url('whole_images/train.png') no-repeat;
     z-index: 501;
