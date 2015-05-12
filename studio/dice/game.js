@@ -1,12 +1,19 @@
+var App = {
+    clicks : 0,
+    tile_clicks : 0
+};
+
 var pages = ["ball.html", "haiti.html", "missile.html", "natgeo.html", "oj.html",
 "pope.html", "smoke.html", "soldier.html", "sun.html", "train.html"]; 
  
 $(document).on('click', '.start-over', function() {
-    var random_num = Math.floor(Math.random() * pages.length);
-    window.location = pages[random_num];
+    if (App.clicks == 2) {
+        var random_num = Math.floor(Math.random() * pages.length);
+        window.location = pages[random_num];
+    }
 });
 
-$('.select-button, .start-over').click(function() {
+$('.select-button').click(function() {
     var random_num = Math.floor(Math.random() * pages.length);
     window.location = pages[random_num];
 });
@@ -19,6 +26,7 @@ $( ".s:nth-child(even)" ).draggable({
     $('.s').removeClass('current');
     $(this).css({ 'z-index' : 500 });
     $(this).addClass('current');
+    App.tile_clicks = 0;
   },
   stop: function() {
     // $(this).css('z-index', 0);
@@ -73,10 +81,27 @@ $('.f-button').click(function() {
     }
 });
 
-
+// ???
 $('.r-button').click(function() {
     var $tile = $('.s.current');
-    $tile.css({ "-webkit-transform" : "rotate(+90deg)" });
+    // if ($tile.data("turn") == true) {
+    //     alert('hi')
+    //     $tile.css({ "-webkit-transform" : "rotate(0deg)" });
+    //   $('.s.current').data("turn","false");
+
+    if (App.tile_clicks == 0) {
+        $tile.css({ "-webkit-transform" : "rotate(+90deg)" });
+        App.tile_clicks += 1;
+    } else if (App.tile_clicks == 1) {
+        $tile.css({ "-webkit-transform" : "rotate(+180deg)" });
+        App.tile_clicks += 1;
+    } else if (App.tile_clicks == 2) {
+        $tile.css({ "-webkit-transform" : "rotate(+270deg)" });
+        App.tile_clicks += 1;
+    } else {
+        $tile.css({ "-webkit-transform" : "rotate(+360deg)" });
+        App.tile_clicks = 0;
+    }
 });
 
 $('.finish-button').click(function(event) {
@@ -84,7 +109,8 @@ $('.finish-button').click(function(event) {
     var div_to_reveal = $(this).data('reveal');
     
     $(div_to_reveal).css('display', 'block');
-    $('.finish-button').addClass('start-over');
+    $('.finish-button').addClass('start-over').html('Start Over');
+    App.clicks += 1;
 });
 
 var thover=true;
