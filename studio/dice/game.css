@@ -138,6 +138,15 @@ a:visited {
 .s.active {
 	border: 2px solid #FFFF00;
 }
+.dim {
+    position: fixed;
+    width: 944px;
+    height: 628px;
+    background-color: #000;
+    opacity: .5;
+    z-index: 900;
+    display: none;
+}
 .select-button:hover, .finish-button:hover,
 .t-button:hover, .f-button:hover, .r-button:hover {
     cursor: pointer
@@ -164,7 +173,7 @@ a:visited {
     display: none; 
     background: url('whole_images/ball.png') no-repeat;
     z-index: 500;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 430px;
     width: 318px;
 }
@@ -175,7 +184,7 @@ a:visited {
     display: none; 
     background: url('whole_images/haiti.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 381px;
     width: 573px;
 }
@@ -186,7 +195,7 @@ a:visited {
     display: none; 
     background: url('whole_images/missile.png') no-repeat;
     z-index: 500;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 328px;
     width: 511px;
 }
@@ -197,7 +206,7 @@ a:visited {
     display: none; 
     background: url('whole_images/natgeo.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 470px;
     width: 310px;
 }
@@ -208,7 +217,7 @@ a:visited {
     display: none; 
     background: url('whole_images/oj.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 488px;
     width: 370px;
 }
@@ -219,7 +228,7 @@ a:visited {
     display: none; 
     background: url('whole_images/pope.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 305px;
     width: 411px;
 }
@@ -230,7 +239,7 @@ a:visited {
     display: none; 
     background: url('whole_images/smoke.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 325px;
     width: 487px;
 }
@@ -241,7 +250,7 @@ a:visited {
     display: none; 
     background: url('whole_images/soldier.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 338px;
     width: 482px;
 }
@@ -252,7 +261,7 @@ a:visited {
     display: none; 
     background: url('whole_images/sun.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 479px;
     width: 312px;
 }
@@ -263,7 +272,7 @@ a:visited {
     display: none; 
     background: url('whole_images/train.png') no-repeat;
     z-index: 501;
-    outline: solid 50px #fff;
+    outline: solid 20px #fff;
     height: 360px;
     width: 540px;
 }

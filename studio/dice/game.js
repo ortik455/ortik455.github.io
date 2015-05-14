@@ -2,6 +2,7 @@ var App = {
     clicks : 0,
     tile_clicks : 0
 };
+var startZindex = 100;
 
 var pages = ["ball.html", "haiti.html", "missile.html", "natgeo.html", "oj.html",
 "pope.html", "smoke.html", "soldier.html", "sun.html", "train.html"]; 
@@ -18,15 +19,16 @@ $('.select-button').click(function() {
     window.location = pages[random_num];
 });
 
-
+var startZindex = 100;
 $( ".s:nth-child(even)" ).draggable({
- // axis: "y",
+
   containment: '.tile-wrapper',
   start: function() {
     $('.s').removeClass('current');
     $(this).css({ 'z-index' : 500 });
     $(this).addClass('current');
     App.tile_clicks = 0;
+    $(this).css("z-index", startZindex++);
   },
   stop: function() {
     // $(this).css('z-index', 0);
@@ -34,12 +36,13 @@ $( ".s:nth-child(even)" ).draggable({
 });
 
 $( ".s:nth-child(odd)" ).draggable({
-  //axis: "x",
+
   containment: '.tile-wrapper',
   start: function() {
     $('.s').removeClass('current');
     $(this).css({ 'z-index' : 500 });
     $(this).addClass('current');
+    $(this).css("z-index", startZindex++);
   },
   stop: function() {
     // $(this).css('z-index', 0);
@@ -146,5 +149,22 @@ $(".r-button").mouseenter(function(){
 $(".r-button").mouseleave(function(){
 	if (rhover==true){
 		$(".hover-r").fadeOut(400);
+	} 
+});
+
+var finishhover=true;
+$(".finish-button").click(function(){
+	if (finishhover==true){
+	    $(".dim").fadeIn(500);
+	    $(".image-ball").css('z-index', "1000");
+	    $(".image-haiti").css('z-index', "1000");
+	    $(".image-missile").css('z-index', "1000");
+	    $(".image-natgeo").css('z-index', "1000");
+	    $(".image-oj").css('z-index', "1000");
+	    $(".image-pope").css('z-index', "1000");
+	    $(".image-smoke").css('z-index', "1000");
+	    $(".image-soldier").css('z-index', "1000");
+	    $(".image-sun").css('z-index', "1000");
+	    $(".image-train").css('z-index', "1000");
 	} 
 });
